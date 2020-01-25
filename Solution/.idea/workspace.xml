@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Ws3O2UeuQk2UHMuxO9U9WCQ0Jf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Solution" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="Desktop" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="" />
+      <created>1579924440626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579924440626</updated>
+      <workItem from="1579924448866" duration="6325000" />
+      <workItem from="1579932996115" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="422" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579931123237">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="422" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579931123237" />
+    <state width="1918" height="164" key="GridCell.Tab.0.bottom" timestamp="1579932955177">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
+    <state width="1918" height="164" key="GridCell.Tab.0.center" timestamp="1579932955176">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955176" />
+    <state width="1918" height="164" key="GridCell.Tab.0.left" timestamp="1579932955176">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955176" />
+    <state width="1918" height="164" key="GridCell.Tab.0.right" timestamp="1579932955177">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
+    <state width="1918" height="164" key="GridCell.Tab.1.bottom" timestamp="1579932955177">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
+    <state width="1918" height="164" key="GridCell.Tab.1.center" timestamp="1579932955177">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
+    <state width="1918" height="164" key="GridCell.Tab.1.left" timestamp="1579932955177">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
+    <state width="1918" height="164" key="GridCell.Tab.1.right" timestamp="1579932955177">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="164" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
+    <state x="452" y="169" key="SettingsEditor" timestamp="1579931422964">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="169" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579931422964" />
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog" timestamp="1579932997207">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579932997207" />
+    <state x="455" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579924718184">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="455" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1579924718184" />
+  </component>
+</project>
