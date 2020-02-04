@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="" />
+    <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day12/Second/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day10/Final/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day10/Final/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day10/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day10/First/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day10/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day10/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day10/Second/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day10/Second/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day10/Third/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day10/Third/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day11/Final-26/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day11/Final-26/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day11/Final-27/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day11/Final-27/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day11/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day4/Final/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day4/Final/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day4/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day4/First/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day4/Second/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day4/Second/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day5/Final/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day5/Final/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day5/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day5/First/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day6/Final/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day6/Final/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day6/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day6/First/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day6/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day7/Final/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day7/Final/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day7/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day7/First/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day7/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day8/Final/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day8/Final/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day8/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day8/First/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day8/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day8/Second/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day8/Second/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day8/Third/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day8/Third/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day9/Final/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day9/Final/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day9/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day9/First/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day9/Fourth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day9/Fourth/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day9/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Day9/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day9/Second/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day9/Second/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day9/Third/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day9/Third/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/META-INF/Desktop.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Solution" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ws3O2UeuQk2UHMuxO9U9WCQ0Jf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RunManager">
@@ -41,33 +92,38 @@
       <updated>1579924440626</updated>
       <workItem from="1579924448866" duration="6325000" />
       <workItem from="1579932996115" duration="15000" />
+      <workItem from="1580778274444" duration="8154000" />
+      <workItem from="1580801666098" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="422" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579931123237">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="422" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579931123237" />
-    <state width="1918" height="164" key="GridCell.Tab.0.bottom" timestamp="1579932955177">
+    <state width="1918" height="238" key="GridCell.Tab.0.bottom" timestamp="1580787897050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
-    <state width="1918" height="164" key="GridCell.Tab.0.center" timestamp="1579932955176">
+    <state width="1918" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
+    <state width="1918" height="238" key="GridCell.Tab.0.center" timestamp="1580787897050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="164" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955176" />
-    <state width="1918" height="164" key="GridCell.Tab.0.left" timestamp="1579932955176">
+    <state width="1918" height="238" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
+    <state width="1918" height="238" key="GridCell.Tab.0.left" timestamp="1580787897050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="164" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955176" />
-    <state width="1918" height="164" key="GridCell.Tab.0.right" timestamp="1579932955177">
+    <state width="1918" height="238" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
+    <state width="1918" height="238" key="GridCell.Tab.0.right" timestamp="1580787897050">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="164" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
+    <state width="1918" height="238" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
     <state width="1918" height="164" key="GridCell.Tab.1.bottom" timestamp="1579932955177">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -88,13 +144,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="169" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579931422964" />
-    <state x="883" y="454" key="com.intellij.ide.util.TipDialog" timestamp="1579932997207">
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog" timestamp="1580803494691">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="883" y="454" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579932997207" />
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580803494691" />
     <state x="455" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579924718184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="455" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1579924718184" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1580782275382">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580782275382" />
   </component>
 </project>
