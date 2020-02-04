@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="" />
+    <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Day12/Third/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +60,8 @@
       <workItem from="1579924448866" duration="6325000" />
       <workItem from="1579932996115" duration="15000" />
       <workItem from="1580778274444" duration="8154000" />
-      <workItem from="1580801666098" duration="888000" />
+      <workItem from="1580801666098" duration="5887000" />
+      <workItem from="1580819007072" duration="3570000" />
     </task>
     <servers />
   </component>
@@ -69,22 +76,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="422" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579931123237" />
-    <state width="1918" height="238" key="GridCell.Tab.0.bottom" timestamp="1580787897050">
+    <state width="1918" height="237" key="GridCell.Tab.0.bottom" timestamp="1580822267678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
-    <state width="1918" height="238" key="GridCell.Tab.0.center" timestamp="1580787897050">
+    <state width="1918" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
+    <state width="1918" height="237" key="GridCell.Tab.0.center" timestamp="1580822267678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="238" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
-    <state width="1918" height="238" key="GridCell.Tab.0.left" timestamp="1580787897050">
+    <state width="1918" height="237" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
+    <state width="1918" height="237" key="GridCell.Tab.0.left" timestamp="1580822267678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="238" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
-    <state width="1918" height="238" key="GridCell.Tab.0.right" timestamp="1580787897050">
+    <state width="1918" height="237" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
+    <state width="1918" height="237" key="GridCell.Tab.0.right" timestamp="1580822267678">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1918" height="238" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580787897050" />
+    <state width="1918" height="237" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
     <state width="1918" height="164" key="GridCell.Tab.1.bottom" timestamp="1579932955177">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -105,10 +112,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="169" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579931422964" />
-    <state x="883" y="454" key="com.intellij.ide.util.TipDialog" timestamp="1580803494691">
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog" timestamp="1580819019811">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="883" y="454" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580803494691" />
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580819019811" />
     <state x="455" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579924718184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

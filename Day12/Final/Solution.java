@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Stack;
 
 class ListNode
 {
@@ -39,6 +40,7 @@ class Solution {
         x.add(1999);
         x.add(99999);
         ListNode result = new Solution().reverseKGroup(x,scanner.nextInt());
+        result.print();
     }
 
     public ListNode reverseKGroup(ListNode head,int k)
@@ -49,24 +51,20 @@ class Solution {
         ListNode t = dummy;
         while(true)
         {
-            ListNode dummy2 = new ListNode(0);
-            ListNode tt;
+            Stack<ListNode> s = new Stack<>();
             ListNode temp = head;
             int i=0;
             for(;i<k && head != null;++i)
             {
-                tt = new ListNode(head.val);
-                tt.next = dummy2.next;
-                dummy2.next = tt;
+                s.add(new ListNode(head.val));
                 head = head.next;
             }
             if(i == k)
             {
                 for(i=0;i<k;++i)
                 {
-                    t.next = dummy2.next;
+                    t.next = s.pop();
                     t = t.next;
-                    dummy2 = dummy2.next;
                 }
             }
             else if(head == null)

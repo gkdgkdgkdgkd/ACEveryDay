@@ -48,39 +48,35 @@ class Solution {
     {
         if(head == null || k <= 1)
             return head;
-        return reverse(head,k);
-    }
-
-    public ListNode reverse(ListNode head,int k)
-    {
-        if(head != null)
+        ListNode dummy = new ListNode(0);
+        ListNode t = dummy;
+        while(true)
         {
-            int i=0;
+            ListNode nextTPosition = head;
             ListNode temp;
-            ListNode t = head;
-            ListNode dummy = new ListNode(0);
+            int i=0;
             for(;i<k && head != null;++i)
             {
                 temp = head.next;
-                head.next = dummy.next;
-                dummy.next = head;
+                head.next = t.next;
+                t.next = head;
                 head = temp;
             }
             if(i == k)
-                t.next = reverse(head,k);
+                t = nextTPosition;
             else
             {
-                for(head = dummy.next, dummy.next=null; head!=null;)
+                for(head = t.next,t.next=null;head!=null;)
                 {
                     temp = head.next;
-                    head.next = dummy.next;
-                    dummy.next = head;
+                    head.next = t.next;
+                    t.next = head;
                     head = temp;
                 }
+                break;
             }
-            return dummy.next;
         }
-        return null;
+        return dummy.next;
     }
 }
 
