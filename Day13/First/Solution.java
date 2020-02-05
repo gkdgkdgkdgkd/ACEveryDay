@@ -12,17 +12,37 @@ class Solution {
     public int divide(int dividend,int divisor)
     {
         boolean negative = true;
-        if((dividend > 0 && divisor > 0) || (dividend < 0 && divisor < 0))
-            negative = false;
-        dividend = dividend > 0 ? dividend : -dividend;
-        divisor = divisor > 0 ? divisor : -divisor;
-        int result = 0;
-        while(dividend >= divisor)
+        if(divisor == 1)
+            return dividend;
+        if(divisor == -1)
         {
-            dividend -= divisor;
+            if(dividend == Integer.MIN_VALUE) return Integer.MAX_VALUE;
+            return -dividend;
+        }
+        long a = dividend;
+        long b = divisor;
+        if((a > 0 && b > 0) || (a < 0 && b < 0))
+            negative = false;
+        a = a > 0 ? a : -a;
+        b = b > 0 ? b : -b;
+        long result = 0;
+        while(a >= b)
+        {
+            a -= b;
             ++result;
         }
-        return negative ? -result : result;
+        if(negative)
+        {
+            if(-result < Integer.MIN_VALUE)
+                return Integer.MIN_VALUE;
+            return (int)-result;
+        }
+        else
+        {
+            if(result > Integer.MAX_VALUE)
+                return Integer.MAX_VALUE;
+            return (int)result;
+        }
     }
 }
 

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Day12/Third/Solution.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day13/Final/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day13/Third/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day13/First/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day13/First/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ListNode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -30,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -47,6 +50,18 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,7 +76,10 @@
       <workItem from="1579932996115" duration="15000" />
       <workItem from="1580778274444" duration="8154000" />
       <workItem from="1580801666098" duration="5887000" />
-      <workItem from="1580819007072" duration="3570000" />
+      <workItem from="1580819007072" duration="3848000" />
+      <workItem from="1580882015268" duration="279000" />
+      <workItem from="1580882488412" duration="6892000" />
+      <workItem from="1580893686636" duration="7952000" />
     </task>
     <servers />
   </component>
@@ -72,26 +90,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1038" y="194" key="#Notifications" timestamp="1580887086882">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1038" y="194" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1580887086882" />
     <state x="422" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579931123237">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="422" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579931123237" />
-    <state width="1918" height="237" key="GridCell.Tab.0.bottom" timestamp="1580822267678">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1919" height="298" key="GridCell.Tab.0.bottom" timestamp="1580909430825">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1918" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
-    <state width="1918" height="237" key="GridCell.Tab.0.center" timestamp="1580822267678">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1919" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580909430825" />
+    <state width="1918" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580889502195" />
+    <state width="1919" height="298" key="GridCell.Tab.0.center" timestamp="1580909430825">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1918" height="237" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
-    <state width="1918" height="237" key="GridCell.Tab.0.left" timestamp="1580822267678">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1919" height="298" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580909430825" />
+    <state width="1918" height="237" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580889502195" />
+    <state width="1919" height="298" key="GridCell.Tab.0.left" timestamp="1580909430825">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1918" height="237" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
-    <state width="1918" height="237" key="GridCell.Tab.0.right" timestamp="1580822267678">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1919" height="298" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580909430825" />
+    <state width="1918" height="237" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580889502195" />
+    <state width="1919" height="298" key="GridCell.Tab.0.right" timestamp="1580909430825">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1918" height="237" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580822267678" />
+    <state width="1919" height="298" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580909430825" />
+    <state width="1918" height="237" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580889502195" />
     <state width="1918" height="164" key="GridCell.Tab.1.bottom" timestamp="1579932955177">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -108,14 +134,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1918" height="164" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579932955177" />
-    <state x="452" y="169" key="SettingsEditor" timestamp="1579931422964">
+    <state x="452" y="169" key="SettingsEditor" timestamp="1580887103718">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="169" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579931422964" />
-    <state x="883" y="454" key="com.intellij.ide.util.TipDialog" timestamp="1580819019811">
+    <state x="452" y="169" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1580887103718" />
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog" timestamp="1580882506131">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="883" y="454" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580819019811" />
+    <state x="883" y="454" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580882506131" />
     <state x="455" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579924718184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
