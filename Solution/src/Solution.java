@@ -5,31 +5,28 @@ class Solution {
         Scanner scanner = new Scanner(System.in);
         while (true)
         {
-            System.out.println(new Solution().divide(scanner.nextInt(),scanner.nextInt()));
+//            System.out.println(new Solution().strStr(scanner.nextLine(),scanner.nextLine()));
+            System.out.println(scanner.nextLine().indexOf(scanner.nextLine()));
         }
     }
 
-    public int divide(int dividend,int divisor)
-    {
-        boolean negative = (dividend > 0) ^ (divisor > 0);
-        int result = div(dividend > 0 ? -dividend : dividend,divisor > 0 ? -divisor : divisor);
-        if(negative) return -result;
-        return result == Integer.MIN_VALUE ? Integer.MAX_VALUE : result;
-    }
-
-    public int div(int dividend,int divisor)
-    {
-        if(dividend <= divisor)
+    public int strStr(String haystack, String needle) {
+        if(needle == null || needle.isEmpty() || haystack == null || haystack.isEmpty())
+            return 0;
+        int sLen = haystack.length();
+        int tLen = needle.length();
+        for(int p=0;p<sLen;++p)
         {
-            int tempDivisor = divisor;
-            int tempResult = 1;
-            while(dividend < (tempDivisor<<1) && tempDivisor > (Integer.MIN_VALUE >> 1))
+            int ps = p;
+            int pt = 0;
+            while(ps<sLen && pt<tLen && needle.charAt(pt) == haystack.charAt(ps))
             {
-                tempDivisor <<= 1;
-                tempResult <<= 1;
+                ++ps;
+                ++pt;
             }
-            return tempResult + div(dividend-tempDivisor,divisor);
+            if(pt == tLen)
+                return p;
         }
-        return 0;
+        return -1;
     }
 }
