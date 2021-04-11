@@ -1,10 +1,7 @@
-import javax.swing.*;
-import java.io.*;
-import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.LinkedList;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
-        System.out.println(new Solution().isUgly(9));
+    public static void main(String[] args){
+        System.out.println(new Solution().nthUglyNumber(1000));
     }
 }
