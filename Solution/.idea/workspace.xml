@@ -7,6 +7,7 @@
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -36,6 +37,16 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.desktop/com/sun/imageio/plugins/jpeg/ImageTypeIterator.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/concurrent/ConcurrentLinkedDeque.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Collection.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Arrays.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/TimSort.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/AbstractCollection.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Iterator.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1Ws3O2UeuQk2UHMuxO9U9WCQ0Jf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,17 +73,6 @@
       <module name="Desktop" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,6 +132,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Arrays.class</url>
+          <line>2753</line>
+          <properties class="java.util.Arrays.ArrayItr">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Solution)this).col" custom="Solution" />
