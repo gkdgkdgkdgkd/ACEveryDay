@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Solution.class" afterDir="false" />

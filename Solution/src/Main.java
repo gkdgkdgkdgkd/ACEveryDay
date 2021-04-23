@@ -5,7 +5,6 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
     public static void main(String[] args) throws Exception{
-        System.out.println(new Solution().numDecodings("10"));
 //        System.out.println(new Solution().strStr("",""));
     }
 }
