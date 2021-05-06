@@ -3,6 +3,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(new Solution().deleteAndEarn(new int[]{2,2,3,3,3,4}));
+        System.out.println(Arrays.toString(new Solution().decode(new int[]{1,2,3}, 1)));
     }
 }
