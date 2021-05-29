@@ -1,8 +1,9 @@
 import java.io.*;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         Solution solution = new Solution();
-        System.out.println(solution.totalHammingDistance(new int[]{4,14,2}));
+        System.out.println(Arrays.toString(solution.twoSum(new int[]{3,3},8)));
     }
 }
