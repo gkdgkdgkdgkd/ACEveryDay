@@ -7,5 +7,6 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Main {
     public static void main(String[] args) throws IOException {
         Solution solution = new Solution();
+        System.out.println(solution.isPowerOfFour(512));
     }
 }
