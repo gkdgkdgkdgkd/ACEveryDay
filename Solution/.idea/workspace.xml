@@ -75,6 +75,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Desktop" />
+      <option name="VM_PARAMETERS" value="-Xms8g -Xss1m" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
