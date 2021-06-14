@@ -1,9 +1,9 @@
-import java.io.*;
-
 public class Main {
-    public static void main(String[] args) throws IOException {
-        Solution solution = new Solution();
-        solution.version = 1702766719;
-        System.out.println(solution.firstBadVersion(2126753390));
+    private final static Solution solution = new Solution();
+
+    public static void main(String[] args) {
+        solution.n = 1;
+        System.out.println(solution.guessNumber(10));
     }
+
 }
