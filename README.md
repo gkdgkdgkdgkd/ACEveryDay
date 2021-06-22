@@ -76,3 +76,4 @@
 - [1239](https://github.com/2293736867/ACEveryDay/tree/main/list/1239)
 - [1600](https://github.com/2293736867/ACEveryDay/tree/main/list/1600)
 - [401](https://github.com/2293736867/ACEveryDay/tree/main/list/401)
+- [剑指Offer38](https://github.com/2293736867/ACEveryDay/tree/main/list/剑指Offer38)
