@@ -7,19 +7,9 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        System.out.println(SOLUTION.numWays(5,new int[][]{
-                {0,2},
-                {2,1},
-                {3,4},
-                {2,3},
-                {1,4},
-                {2,0},
-                {0,4}
-        },3));
-        System.out.println(SOLUTION.numWays(3,new int[][]{
-                {0,2},
-                {2,1}
-        },2));
+        System.out.println(SOLUTION.maxIceCream(new int[]{1, 3, 2, 4, 1}, 7));
+        System.out.println(SOLUTION.maxIceCream(new int[]{10, 6, 8, 7, 7, 8}, 5));
+        System.out.println(SOLUTION.maxIceCream(new int[]{1, 6, 3, 1, 2, 5}, 20));
     }
 
 }
