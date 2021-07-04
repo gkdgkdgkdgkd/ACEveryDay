@@ -7,7 +7,7 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        System.out.println(SOLUTION.frequencySort("Aabb"));
+        System.out.println(Arrays.toString(SOLUTION.findErrorNums(new int[]{1,1})));
     }
 
 }
