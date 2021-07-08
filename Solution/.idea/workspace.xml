@@ -60,11 +60,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Easymall/EasymallServer" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -76,6 +76,17 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Desktop" />
       <option name="VM_PARAMETERS" value="-Xms8g -Xss1m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,7 +156,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Arrays.class</url>
           <line>2753</line>
-          <properties class="java.util.Arrays.ArrayItr">
+          <properties class="java.util.Arrays.ArrayItr" method="next">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
