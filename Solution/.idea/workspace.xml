@@ -5,9 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TimeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../list/981/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1011/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1011/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1035/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1035/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1049/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1049/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1074/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1074/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1190/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1190/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/12/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/12/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1239/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1239/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/13/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/13/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1310/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1310/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/137/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/137/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1418/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1418/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1442/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1442/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1449/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1449/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1473/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1473/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1482/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1482/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1486/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1486/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/149/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/149/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/153/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/153/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/154/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/154/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/160/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/160/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1600/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1600/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/168/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/168/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1707/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1707/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1711/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1711/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1720/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1720/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1723/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1723/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1734/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1734/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1738/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1738/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1744/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1744/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1787/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1787/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/179/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/179/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/1833/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/1833/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/203/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/203/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/208/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/208/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/213/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/213/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/220/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/220/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/231/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/231/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/26/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/26/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/263/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/263/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/264/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/264/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/27/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/27/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/278/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/278/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/279/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/279/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/28/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/28/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/322/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/322/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/342/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/342/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/363/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/363/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/368/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/368/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/374/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/374/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/377/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/377/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/401/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/401/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/403/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/403/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/451/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/451/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/461/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/461/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/474/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/474/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/477/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/477/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/483/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/483/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/494/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/494/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/523/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/523/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/525/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/525/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/554/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/554/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/633/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/633/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/645/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/645/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/65/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/65/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/664/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/664/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/690/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/690/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/692/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/692/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/726/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/726/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/740/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/740/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/752/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/752/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/773/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/773/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/783/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/783/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/80/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/80/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/81/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/81/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/810/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/810/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/815/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/815/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/852/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/852/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/87/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/87/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/872/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/872/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/877/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/877/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/879/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/879/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/88/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/88/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/897/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/897/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/909/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/909/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/91/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/91/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/930/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/930/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/938/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/938/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/993/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/993/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/LCP07/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/LCP07/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/剑指Offer15/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/剑指Offer15/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/剑指Offer37/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/剑指Offer37/Codec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/剑指Offer38/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/剑指Offer38/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/面试题17.10/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/面试题17.10/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +154,11 @@
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Collection.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/AbstractCollection.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/concurrent/ConcurrentLinkedDeque.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.desktop/com/sun/imageio/plugins/jpeg/ImageTypeIterator.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/TimSort.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Iterator.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Arrays.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.desktop/com/sun/imageio/plugins/jpeg/ImageTypeIterator.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1Ws3O2UeuQk2UHMuxO9U9WCQ0Jf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,15 +171,16 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Easymall/EasymallServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -76,17 +192,6 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Desktop" />
       <option name="VM_PARAMETERS" value="-Xms8g -Xss1m" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
