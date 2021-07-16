@@ -7,10 +7,7 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        System.out.println(SOLUTION.maximumElementAfterDecrementingAndRearranging(new int[]{2,2,1,2,1}));
-        System.out.println(SOLUTION.maximumElementAfterDecrementingAndRearranging(new int[]{100,1,1000}));
-        System.out.println(SOLUTION.maximumElementAfterDecrementingAndRearranging(new int[]{1,2,3,4,5}));
-        System.out.println(SOLUTION.maximumElementAfterDecrementingAndRearranging(new int[]{279268,756590,840776,239875,619870,991189,107193,945216}));
+        System.out.println(SOLUTION.search(new int[]{5,7,7,8,8,10},6));
     }
 
 }
