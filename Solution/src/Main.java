@@ -7,7 +7,7 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        System.out.println(SOLUTION.search(new int[]{5,7,7,8,8,10},6));
+        System.out.println(SOLUTION.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
     }
 
 }
