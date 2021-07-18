@@ -102,3 +102,4 @@
 - [1846](https://github.com/2293736867/ACEveryDay/tree/main/list/1846)
 - [剑指Offer53I](https://github.com/2293736867/ACEveryDay/tree/main/list/剑指Offer53I)
 - [剑指Offer42](https://github.com/2293736867/ACEveryDay/tree/main/list/剑指Offer42)
+- [面试题10.02](https://github.com/2293736867/ACEveryDay/tree/main/list/面试题10.02)
