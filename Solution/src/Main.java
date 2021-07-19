@@ -7,8 +7,6 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        System.out.println(SOLUTION.groupAnagrams(new String[]{
-                "alkasdfasdfaldfasldfkasldflasd","nbznmxcbvmnzxbcvmnbzxmncv"
-        }));
+
     }
 }
