@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -88,30 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Solution" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -181,6 +155,26 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class</url>
+          <line>224</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class</url>
+          <line>214</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class</url>
+          <line>218</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class</url>
+          <line>215</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

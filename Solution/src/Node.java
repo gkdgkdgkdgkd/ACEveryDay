@@ -1,10 +1,12 @@
-public class ListNode {
+public class Node {
     int val;
-    ListNode next;
+    Node next;
+    Node random;
 
-    ListNode(int x) {
+    Node(int x) {
         val = x;
         next = null;
+        random = null;
     }
 
     @Override
