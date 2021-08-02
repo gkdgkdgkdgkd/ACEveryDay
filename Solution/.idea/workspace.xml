@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution$Node.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/TreeNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +42,14 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Collection.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/AbstractCollection.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/concurrent/ConcurrentLinkedDeque.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/TimSort.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Iterator.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Arrays.class" root0="SKIP_INSPECTION" />
     <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.desktop/com/sun/imageio/plugins/jpeg/ImageTypeIterator.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Collection.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/AbstractCollection.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/TimSort.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Iterator.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1Ws3O2UeuQk2UHMuxO9U9WCQ0Jf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -77,22 +79,24 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Solution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
