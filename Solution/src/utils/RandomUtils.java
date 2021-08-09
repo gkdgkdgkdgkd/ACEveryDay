@@ -1,3 +1,5 @@
+package utils;
+
 import java.util.Random;
 
 public class RandomUtils {
@@ -9,5 +11,9 @@ public class RandomUtils {
 
     public static int randomInt(int bound){
         return random.nextInt(bound);
+    }
+
+    public static int randomIntClosed(int start,int end){
+        return random.nextInt(end - start + 1) + start;
     }
 }
