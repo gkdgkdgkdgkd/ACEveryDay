@@ -5,6 +5,7 @@ import utils.intarray.IntArrayUtils;
 import utils.listnode.ListNodeUtils;
 import utils.print.PrintUtils;
 import utils.random.RandomUtils;
+import utils.str.StrUtils;
 import utils.strarray.StrArrayUtils;
 
 public class Utils {
@@ -66,6 +67,14 @@ public class Utils {
 
     public static String[] randomStrArray(int arrayLen, int strLen) {
         return StrArrayUtils.randomStrArray(arrayLen,strLen);
+    }
+
+    public static String randomStr(){
+        return StrUtils.randomStr();
+    }
+
+    public static String randomStr(int len){
+        return StrUtils.randomStr(len);
     }
 
     public static ListNode listnode(int... val) {

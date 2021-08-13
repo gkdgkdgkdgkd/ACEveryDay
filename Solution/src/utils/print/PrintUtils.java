@@ -14,6 +14,8 @@ public class PrintUtils {
                 System.out.print("\"" + strs[i] + "\"" + (i == n - 1 ? "" : ","));
             }
             System.out.println("]");
+        } else if (data instanceof String) {
+            System.out.println("\"" + data + "\"");
         } else {
             System.out.println(data);
         }
