@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 public class PrintUtils {
     public static void print(Object data) {
-        if(data instanceof int[][]){
-            System.out.println(Arrays.deepToString((int[][])data));
-        }else if (data instanceof int[]) {
+        if (data instanceof int[][]) {
+            System.out.println(Arrays.deepToString((int[][]) data));
+        } else if (data instanceof char[][]) {
+            System.out.println(Arrays.deepToString((char[][]) data));
+        } else if (data instanceof int[]) {
             System.out.println(Arrays.toString((int[]) data));
         } else if (data instanceof String[]) {
             String[] strs = (String[]) data;

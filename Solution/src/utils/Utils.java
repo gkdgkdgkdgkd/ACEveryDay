@@ -1,6 +1,7 @@
 package utils;
 
 import node.ListNode;
+import utils.chararray.CharArrayUtils;
 import utils.intarray.IntArrayUtils;
 import utils.list.ListUtils;
 import utils.listnode.ListNodeUtils;
@@ -22,6 +23,18 @@ public class Utils {
 
     public static int[][] array2(int k, int... v) {
         return IntArrayUtils.array2(k, v);
+    }
+
+    public static char[] array(char... v) {
+        return CharArrayUtils.array(v);
+    }
+
+    public static char[][] array(char[]... v) {
+        return CharArrayUtils.array(v);
+    }
+
+    public static char[][] array2(int k, char... v) {
+        return CharArrayUtils.array2(k, v);
     }
 
     public static String[] array(String... v) {
@@ -68,24 +81,24 @@ public class Utils {
         return IntArrayUtils.randomArrayNoRepeated(len);
     }
 
-    public static int[] randomArrayNoRepeated(int len,int bound) {
-        return IntArrayUtils.randomArrayNoRepeated(len,bound);
+    public static int[] randomArrayNoRepeated(int len, int bound) {
+        return IntArrayUtils.randomArrayNoRepeated(len, bound);
     }
 
-    public static int[] randomArrayNoRepeated(int len,int start,int end) {
-        return IntArrayUtils.randomArrayNoRepeated(len,start,end);
+    public static int[] randomArrayNoRepeated(int len, int start, int end) {
+        return IntArrayUtils.randomArrayNoRepeated(len, start, end);
     }
 
-    public static int[] randomArraySortedNoRepeated(int len){
+    public static int[] randomArraySortedNoRepeated(int len) {
         return IntArrayUtils.randomArraySortedNoRepeated(len);
     }
 
-    public static int[] randomArraySortedNoRepeated(int len,int bound) {
-        return IntArrayUtils.randomArraySortedNoRepeated(len,bound);
+    public static int[] randomArraySortedNoRepeated(int len, int bound) {
+        return IntArrayUtils.randomArraySortedNoRepeated(len, bound);
     }
 
-    public static int[] randomArraySortedNoRepeated(int len,int start,int end) {
-        return IntArrayUtils.randomArraySortedNoRepeated(len,start,end);
+    public static int[] randomArraySortedNoRepeated(int len, int start, int end) {
+        return IntArrayUtils.randomArraySortedNoRepeated(len, start, end);
     }
 
     public static void print(Object data) {

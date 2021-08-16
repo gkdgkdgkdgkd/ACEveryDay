@@ -1,4 +1,5 @@
 import node.ListNode;
+import node.Node;
 import node.TreeNode;
 import utils.Utils;
 
@@ -12,6 +13,6 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.findPaths(3,3,5,1,2));
+        Utils.print(SOLUTION.countArrangement(2));
     }
 }
