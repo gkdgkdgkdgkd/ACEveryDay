@@ -8,6 +8,8 @@ public class PrintUtils {
             System.out.println(Arrays.deepToString((int[][]) data));
         } else if (data instanceof char[][]) {
             System.out.println(Arrays.deepToString((char[][]) data));
+        } else if (data instanceof char[]) {
+            System.out.println(Arrays.toString((char[]) data));
         } else if (data instanceof int[]) {
             System.out.println(Arrays.toString((int[]) data));
         } else if (data instanceof String[]) {

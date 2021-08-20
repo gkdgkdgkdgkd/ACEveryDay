@@ -13,6 +13,6 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.countArrangement(2));
+        Utils.print(SOLUTION.reverseWords("cckdkd"));
     }
 }
