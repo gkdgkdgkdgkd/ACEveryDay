@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/check/CheckUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/treenode/TreeNodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values.s" afterDir="false" />
@@ -12,8 +15,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/node/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/node/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/intarray/IntArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/intarray/IntArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/print/PrintUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/print/PrintUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/str/StrUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/str/StrUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/node/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/intarray/IntArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/intarray/IntArrayUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/print/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/PrintUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/str/StrUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/str/StrUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

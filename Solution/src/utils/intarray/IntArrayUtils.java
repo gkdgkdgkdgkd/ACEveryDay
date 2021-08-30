@@ -130,4 +130,12 @@ public class IntArrayUtils {
         Arrays.sort(arr);
         return arr;
     }
+
+    public static int[] randomArray01(int len){
+        int[] arr = new int[len];
+        for (int i = 0; i < len; i++) {
+            arr[i] = randomInt(2);
+        }
+        return arr;
+    }
 }

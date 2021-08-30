@@ -1,7 +1,9 @@
 package utils;
 
 import node.ListNode;
+import node.TreeNode;
 import utils.chararray.CharArrayUtils;
+import utils.check.CheckUtils;
 import utils.intarray.IntArrayUtils;
 import utils.list.ListUtils;
 import utils.listnode.ListNodeUtils;
@@ -9,6 +11,7 @@ import utils.print.PrintUtils;
 import utils.random.RandomUtils;
 import utils.str.StrUtils;
 import utils.strarray.StrArrayUtils;
+import utils.treenode.TreeNodeUtils;
 
 import java.util.List;
 
@@ -101,6 +104,10 @@ public class Utils {
         return IntArrayUtils.randomArraySortedNoRepeated(len, start, end);
     }
 
+    public static int[] randomArray01(int len){
+        return IntArrayUtils.randomArray01(len);
+    }
+
     public static void print(Object data) {
         PrintUtils.print(data);
     }
@@ -125,6 +132,22 @@ public class Utils {
         return StrUtils.randomStr(len);
     }
 
+    public static String randomDigitStr(){
+        return StrUtils.randomDigitStr();
+    }
+
+    public static String randomDigitStr(int len){
+        return StrUtils.randomDigitStr(len);
+    }
+
+    public static String randomDigitStrWithout0(){
+        return StrUtils.randomDigitStrWithout0();
+    }
+
+    public static String randomDigitStrWithout0(int len){
+        return StrUtils.randomDigitStrWithout0(len);
+    }
+
     public static ListNode listnode(int... val) {
         return ListNodeUtils.listnode(val);
     }
@@ -135,5 +158,13 @@ public class Utils {
 
     public static List<String> listOf(String... val) {
         return ListUtils.listOf(val);
+    }
+
+    public static boolean checkSorted(int [] v){
+        return CheckUtils.checkSorted(v);
+    }
+
+    public static TreeNode treeNode(int ... v){
+        return TreeNodeUtils.deserialize(v);
     }
 }
