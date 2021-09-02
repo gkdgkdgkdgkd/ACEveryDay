@@ -104,7 +104,7 @@ public class Utils {
         return IntArrayUtils.randomArraySortedNoRepeated(len, start, end);
     }
 
-    public static int[] randomArray01(int len){
+    public static int[] randomArray01(int len) {
         return IntArrayUtils.randomArray01(len);
     }
 
@@ -132,20 +132,28 @@ public class Utils {
         return StrUtils.randomStr(len);
     }
 
-    public static String randomDigitStr(){
+    public static String randomDigitStr() {
         return StrUtils.randomDigitStr();
     }
 
-    public static String randomDigitStr(int len){
+    public static String randomDigitStr(int len) {
         return StrUtils.randomDigitStr(len);
     }
 
-    public static String randomDigitStrWithout0(){
+    public static String randomDigitStrWithout0() {
         return StrUtils.randomDigitStrWithout0();
     }
 
-    public static String randomDigitStrWithout0(int len){
+    public static String randomDigitStrWithout0(int len) {
         return StrUtils.randomDigitStrWithout0(len);
+    }
+
+    public static String randomDigitStr01() {
+        return StrUtils.randomDigitStr01();
+    }
+
+    public static String randomDigitStr01(int len) {
+        return StrUtils.randomDigitStr01(len);
     }
 
     public static ListNode listnode(int... val) {
@@ -160,11 +168,11 @@ public class Utils {
         return ListUtils.listOf(val);
     }
 
-    public static boolean checkSorted(int [] v){
+    public static boolean checkSorted(int[] v) {
         return CheckUtils.checkSorted(v);
     }
 
-    public static TreeNode treeNode(int ... v){
+    public static TreeNode treeNode(int... v) {
         return TreeNodeUtils.deserialize(v);
     }
 }

@@ -29,16 +29,27 @@ public class StrUtils {
         return builder.toString();
     }
 
-    public static String randomDigitStrWithout0(){
-        return randomDigitStrWithout0(randomInt(1,100));
+    public static String randomDigitStrWithout0() {
+        return randomDigitStrWithout0(randomInt(1, 100));
     }
 
     public static String randomDigitStrWithout0(int len) {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < len; i++) {
-            builder.append(randomInt(1,9));
+            builder.append(randomInt(1, 9));
         }
         return builder.toString();
     }
 
+    public static String randomDigitStr01() {
+        return randomDigitStr01(100);
+    }
+
+    public static String randomDigitStr01(int len) {
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < len; i++) {
+            builder.append(randomInt(2));
+        }
+        return builder.toString();
+    }
 }
