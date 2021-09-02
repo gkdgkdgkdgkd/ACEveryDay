@@ -1,4 +1,4 @@
-这是每天LeetCode每日一题的AC合集，使用Java实现。
+这是从2021年4月5日开始LeetCode每日一题的AC合集，使用Java实现。
 
 # 题目列表
 
