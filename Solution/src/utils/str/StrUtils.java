@@ -17,6 +17,19 @@ public class StrUtils {
         return builder.toString();
     }
 
+    public static String randomStr(char... ch) {
+        return randomStr(100, ch);
+    }
+
+    public static String randomStr(int len, char... ch) {
+        int chLen = ch.length;
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < len; i++) {
+            builder.append(ch[randomInt(chLen)]);
+        }
+        return builder.toString();
+    }
+
     public static String randomDigitStr() {
         return randomDigitStr(randomInt(1, 100));
     }

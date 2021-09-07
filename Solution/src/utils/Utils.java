@@ -132,6 +132,14 @@ public class Utils {
         return StrUtils.randomStr(len);
     }
 
+    public static String randomStr(char ... ch){
+        return StrUtils.randomStr(ch);
+    }
+
+    public static String randomStr(int len,char ... ch){
+        return StrUtils.randomStr(len,ch);
+    }
+
     public static String randomDigitStr() {
         return StrUtils.randomDigitStr();
     }

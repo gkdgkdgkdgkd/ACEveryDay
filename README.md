@@ -152,3 +152,4 @@
 - [剑指Offer10I](https://github.com/2293736867/ACEveryDay/tree/main/list/剑指Offer10I)
 - [470](https://github.com/2293736867/ACEveryDay/tree/main/list/470)
 - [704](https://github.com/2293736867/ACEveryDay/tree/main/list/704)
+- [1221](https://github.com/2293736867/ACEveryDay/tree/main/list/1221)
