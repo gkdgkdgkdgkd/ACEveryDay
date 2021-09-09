@@ -1,6 +1,9 @@
 import node.*;
 import utils.*;
 
+import java.lang.management.ManagementFactory;
+import java.lang.management.ThreadInfo;
+import java.lang.management.ThreadMXBean;
 import java.math.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -12,17 +15,6 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        int k = 2;
-        int w = 0;
-//        int w = Utils.randomInt(1,1234);
-//        int [] profit = Utils.randomArray(10,0,1_000);
-//        int [] capital = Utils.randomArray(10,0,1_000);
-        int [] profit = Utils.array(1,2,3);
-        int [] capital = Utils.array(0,9,10);
-        Utils.print(k);
-        Utils.print(w);
-        Utils.print(profit);
-        Utils.print(capital);
-        Utils.print(SOLUTION.findMaximizedCapital(k,w,profit,capital));
+        Utils.print(SOLUTION.fullJustify(Utils.array("Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"),20));
     }
 }
