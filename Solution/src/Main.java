@@ -15,6 +15,10 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.fullJustify(Utils.array("Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"),20));
+        int[] arr = Utils.randomArray(1000,1,100);
+        int k = Utils.randomInt(1,1000);
+        Utils.print(arr);
+        Utils.print(k);
+        Utils.print(SOLUTION.chalkReplacer(arr,k));
     }
 }
