@@ -8,17 +8,15 @@ import java.math.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListMap;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.stream.*;
 
 public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        int[] arr = Utils.randomArray(1000,1,100);
-        int k = Utils.randomInt(1,1000);
-        Utils.print(arr);
-        Utils.print(k);
-        Utils.print(SOLUTION.chalkReplacer(arr,k));
+        Utils.print(SOLUTION.findIntegers(11));
     }
 }

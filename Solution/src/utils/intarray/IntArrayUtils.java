@@ -1,8 +1,9 @@
 package utils.intarray;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static utils.Utils.randomInt;
 
@@ -30,19 +31,11 @@ public class IntArrayUtils {
     }
 
     public static int[] randomArray(int len) {
-        int[] arr = new int[len];
-        for (int i = 0; i < len; i++) {
-            arr[i] = randomInt();
-        }
-        return arr;
+        return randomArray(len, 0, 100);
     }
 
     public static int[] randomArray(int len, int bound) {
-        int[] arr = new int[len];
-        for (int i = 0; i < len; i++) {
-            arr[i] = randomInt(bound);
-        }
-        return arr;
+        return randomArray(len, 0, bound - 1);
     }
 
     public static int[] randomArray(int len, int start, int end) {
@@ -54,15 +47,11 @@ public class IntArrayUtils {
     }
 
     public static int[] randomArraySorted(int len) {
-        int[] arr = randomArray(len);
-        Arrays.sort(arr);
-        return arr;
+        return randomArraySorted(len, 0, 100);
     }
 
     public static int[] randomArraySorted(int len, int bound) {
-        int[] arr = randomArray(len, bound);
-        Arrays.sort(arr);
-        return arr;
+        return randomArraySorted(len, 0, bound - 1);
     }
 
     public static int[] randomArraySorted(int len, int start, int end) {
@@ -72,66 +61,37 @@ public class IntArrayUtils {
     }
 
     public static int[] randomArrayNoRepeated(int len) {
-        int[] arr = new int[len];
-        Set<Integer> set = new HashSet<>(len);
-        for (int i = 0; i < len; i++) {
-            int num = randomInt();
-            while (set.contains(num)) {
-                num = randomInt();
-            }
-            set.add(num);
-            arr[i] = num;
-        }
-        return arr;
+        return randomArrayNoRepeated(len, 0, 100);
     }
 
     public static int[] randomArrayNoRepeated(int len, int bound) {
-        int[] arr = new int[len];
-        Set<Integer> set = new HashSet<>(len);
-        for (int i = 0; i < len; i++) {
-            int num = randomInt(bound);
-            while (set.contains(num)) {
-                num = randomInt(bound);
-            }
-            set.add(num);
-            arr[i] = num;
-        }
-        return arr;
+        return randomArrayNoRepeated(len, 0, bound - 1);
     }
 
     public static int[] randomArrayNoRepeated(int len, int start, int end) {
-        int[] arr = new int[len];
-        Set<Integer> set = new HashSet<>(len);
-        for (int i = 0; i < len; i++) {
-            int num = randomInt(start,end);
-            while (set.contains(num)) {
-                num = randomInt(start, end);
-            }
-            set.add(num);
-            arr[i] = num;
+        List<Integer> list = new ArrayList<>(len);
+        for (int i = start; i <= end; i++) {
+            list.add(i);
         }
-        return arr;
+        Collections.shuffle(list);
+        return list.stream().mapToInt(i -> i).toArray();
     }
 
-    public static int[] randomArraySortedNoRepeated(int len){
-        int[] arr = randomArrayNoRepeated(len);
+    public static int[] randomArraySortedNoRepeated(int len) {
+        return randomArraySortedNoRepeated(len, 0, 100);
+    }
+
+    public static int[] randomArraySortedNoRepeated(int len, int bound) {
+        return randomArraySortedNoRepeated(len, 0, bound - 1);
+    }
+
+    public static int[] randomArraySortedNoRepeated(int len, int start, int end) {
+        int[] arr = randomArrayNoRepeated(len, start, end);
         Arrays.sort(arr);
         return arr;
     }
 
-    public static int[] randomArraySortedNoRepeated(int len,int bound) {
-        int[] arr = randomArrayNoRepeated(len,bound);
-        Arrays.sort(arr);
-        return arr;
-    }
-
-    public static int[] randomArraySortedNoRepeated(int len,int start,int end) {
-        int[] arr = randomArrayNoRepeated(len,start,end);
-        Arrays.sort(arr);
-        return arr;
-    }
-
-    public static int[] randomArray01(int len){
+    public static int[] randomArray01(int len) {
         int[] arr = new int[len];
         for (int i = 0; i < len; i++) {
             arr[i] = randomInt(2);
