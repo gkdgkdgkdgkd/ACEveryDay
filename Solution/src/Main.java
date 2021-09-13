@@ -17,5 +17,12 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
+//        String str = Utils.randomStr(1000);
+//        Utils.print(str);
+//        String[] dictionary = Utils.randomStrArray(1000,10);
+//        Utils.print(dictionary);
+        Utils.print("".compareTo("3"));
+//        List<String> str = Arrays.asList(Utils.randomStrArray(1000,1000));
+//        System.out.println(str);
     }
 }
