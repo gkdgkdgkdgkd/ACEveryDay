@@ -15,7 +15,6 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        int[] arr = Utils.array(3, 4, 3, 2, 1);
-        Utils.print(SOLUTION.findPeakElement(arr));
+        Utils.print(SOLUTION.findWords(Utils.array2(1, 'a'),Utils.array("a")));
     }
 }
