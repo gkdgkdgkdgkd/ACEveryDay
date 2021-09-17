@@ -15,6 +15,21 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.findWords(Utils.array2(1, 'a'),Utils.array("a")));
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                System.out.print("(" + i + "," + j + ")");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                int ii = i - i%3;
+                int jj = j - j%3;
+                System.out.print("ii*3+jj is "+(ii*3+jj)+" ");
+            }
+            System.out.println();
+        }
     }
 }
