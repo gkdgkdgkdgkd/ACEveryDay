@@ -4,7 +4,10 @@ import utils.*;
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
+import java.lang.reflect.Field;
 import java.math.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
@@ -15,11 +18,7 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        var a = 123;
-        switch (a) {
-            case 3 -> Utils.print("999");
-            case 9 -> Utils.print("888");
-            default -> Utils.print("333");
-        }
+        int[][] arr = Utils.array2(2,2,1,3,1,4,2,1,4);
+        Utils.print(SOLUTION.findRedundantDirectedConnection(arr));
     }
 }
