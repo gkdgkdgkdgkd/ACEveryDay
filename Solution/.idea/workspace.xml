@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/node/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/node/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/node/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/node/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/node/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/node/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/chararray/CharArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/chararray/CharArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/check/CheckUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/check/CheckUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/intarray/IntArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/intarray/IntArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/list/ListUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/list/ListUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/listnode/ListNodeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/listnode/ListNodeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/print/PrintUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/print/PrintUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/random/RandomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/random/RandomUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/str/StrUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/str/StrUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/strarray/StrArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/strarray/StrArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/utils/treenode/TreeNodeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/utils/treenode/TreeNodeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +53,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/concurrent/ConcurrentLinkedDeque.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/ArrayList.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Arrays.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.desktop/com/sun/imageio/plugins/jpeg/ImageTypeIterator.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Collection.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/AbstractCollection.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/TimSort.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-11-openjdk!/java.base/java/util/Iterator.class" root0="SKIP_INSPECTION" />
-  </component>
   <component name="ProjectId" id="1Ws3O2UeuQk2UHMuxO9U9WCQ0Jf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,11 +69,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jmh-generator-annprocess-1.33.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.16417909" />
+    <property name="ignore.preview.features.used" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/backend" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.20433015" />
     <property name="project.structure.side.proportion" value="0.31633615" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,7 +101,6 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Solution" />
       <method v="2">

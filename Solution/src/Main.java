@@ -15,21 +15,11 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                System.out.print("(" + i + "," + j + ")");
-            }
-            System.out.println();
-        }
-
-        System.out.println();
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                int ii = i - i%3;
-                int jj = j - j%3;
-                System.out.print("ii*3+jj is "+(ii*3+jj)+" ");
-            }
-            System.out.println();
+        var a = 123;
+        switch (a) {
+            case 3 -> Utils.print("999");
+            case 9 -> Utils.print("888");
+            default -> Utils.print("333");
         }
     }
 }
