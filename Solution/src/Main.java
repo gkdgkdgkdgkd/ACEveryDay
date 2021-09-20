@@ -18,7 +18,9 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        int[][] arr = Utils.array2(2,2,1,3,1,4,2,1,4);
-        Utils.print(SOLUTION.findRedundantDirectedConnection(arr));
+//        int[] arr = Utils.randomArray(200,0,100);
+        int[] arr = Utils.array(44, 16, 95, 58, 64, 76, 59, 1, 43, 83, 80, 41);
+        Utils.print(arr);
+        Utils.print(SOLUTION.findNumberOfLIS(arr));
     }
 }
