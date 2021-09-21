@@ -18,6 +18,6 @@ public class Main {
     private final static Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.lengthOfLastWord("  sdf  n   "));
+        Utils.print(SOLUTION.splitListToParts(Utils.listnode(1,2,3,4,5,6,7,8,9,10),7));
     }
 }

@@ -5,20 +5,12 @@ import static utils.random.RandomUtils.randomInt;
 public class StrUtils {
     private static final String lowerCaseLetter = "abcdefghijklmnopqrstuvwxyz";
 
-    public static String randomStr() {
-        return randomStr(randomInt(1, 100));
-    }
-
     public static String randomStr(int len) {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < len; i++) {
             builder.append(lowerCaseLetter.charAt(randomInt(Integer.MAX_VALUE) % 26));
         }
         return builder.toString();
-    }
-
-    public static String randomStr(char... ch) {
-        return randomStr(100, ch);
     }
 
     public static String randomStr(int len, char... ch) {
@@ -30,10 +22,6 @@ public class StrUtils {
         return builder.toString();
     }
 
-    public static String randomDigitStr() {
-        return randomDigitStr(randomInt(1, 100));
-    }
-
     public static String randomDigitStr(int len) {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < len; i++) {
@@ -42,20 +30,12 @@ public class StrUtils {
         return builder.toString();
     }
 
-    public static String randomDigitStrWithout0() {
-        return randomDigitStrWithout0(randomInt(1, 100));
-    }
-
     public static String randomDigitStrWithout0(int len) {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < len; i++) {
             builder.append(randomInt(1, 9));
         }
         return builder.toString();
-    }
-
-    public static String randomDigitStr01() {
-        return randomDigitStr01(100);
     }
 
     public static String randomDigitStr01(int len) {
