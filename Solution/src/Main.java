@@ -1,4 +1,5 @@
 import node.Node;
+import node.TreeNode;
 import utils.Utils;
 
 import javax.xml.crypto.AlgorithmMethod;
@@ -19,9 +20,7 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Node node = new Node(1);
-        node.next = new Node(2);
-        node.child = new Node(3);
-        SOLUTION.flatten(node);
+        Utils.print(Utils.randomStr(500));
+        Utils.print(Utils.randomStr(500));
     }
 }
