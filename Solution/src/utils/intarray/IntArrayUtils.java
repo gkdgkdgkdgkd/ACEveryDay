@@ -42,12 +42,12 @@ public class IntArrayUtils {
     }
 
     public static int[] randomArrayNoRepeated(int len, int start, int end) {
-        List<Integer> list = new ArrayList<>(len);
+        List<Integer> list = new ArrayList<>(end - start+1);
         for (int i = start; i <= end; i++) {
             list.add(i);
         }
         Collections.shuffle(list);
-        return list.stream().mapToInt(i -> i).toArray();
+        return list.stream().limit(len).mapToInt(i -> i).toArray();
     }
 
     public static int[] randomArraySortedNoRepeated(int len, int start, int end) {
