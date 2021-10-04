@@ -9,6 +9,9 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(SOLUTION.toHex(26));
+//        Utils.print(SOLUTION.licenseKeyFormatting("--a-a-a-a--",2));
+//        Utils.print(SOLUTION.licenseKeyFormatting("r",1));
+//        Utils.print(SOLUTION.licenseKeyFormatting("aaaa",2));
+        Utils.print(SOLUTION.licenseKeyFormatting("a-a-a-a-",1));
     }
 }
