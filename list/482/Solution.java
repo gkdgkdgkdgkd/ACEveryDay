@@ -12,7 +12,7 @@ public class Solution {
             }
             res[p--] = Character.toUpperCase(ch[i]);
             ++count;
-            if (count == k && p > 0) {
+            if (count == k) {
                 res[p--] = '-';
                 count = 0;
             }
