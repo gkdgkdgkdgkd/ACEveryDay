@@ -48,6 +48,14 @@ public class Utils {
         return RandomUtils.randomInt(start, end);
     }
 
+    public static char[] randomLowerCaseArray(int len){
+        return CharArrayUtils.randomLowerCaseArray(len);
+    }
+
+    public static char[] randomUpperCaseArray(int len){
+        return CharArrayUtils.randomUpperCaseArray(len);
+    }
+
     public static int[] randomArray(int len, int start, int end) {
         return IntArrayUtils.randomArray(len, start, end);
     }
