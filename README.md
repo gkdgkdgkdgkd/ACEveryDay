@@ -190,3 +190,4 @@
 - [412](https://github.com/2293736867/ACEveryDay/tree/main/list/412)
 - [剑指OfferII69](https://github.com/2293736867/ACEveryDay/tree/main/list/剑指OfferII69)
 - [38](https://github.com/2293736867/ACEveryDay/tree/main/list/38)
+- [282](https://github.com/2293736867/ACEveryDay/tree/main/list/282)
