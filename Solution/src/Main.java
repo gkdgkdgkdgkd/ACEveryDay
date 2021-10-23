@@ -1,14 +1,10 @@
-import node.TreeNode;
 import utils.Utils;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     private static final Solution SOLUTION = new Solution();
-
     public static void main(String[] args) {
-        int[] arr = Utils.randomArray(50,0,9);
-        Utils.print(arr);
+        Utils.print(SOLUTION.constructRectangle(12348));
     }
 }

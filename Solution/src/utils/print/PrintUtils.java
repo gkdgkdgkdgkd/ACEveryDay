@@ -19,6 +19,8 @@ public class PrintUtils {
             System.out.println("\"" + c[n - 1] + "\"]");
         } else if (data instanceof int[] arr) {
             System.out.println(Arrays.toString(arr));
+        } else if (data instanceof long[] arr) {
+            System.out.println(Arrays.toString(arr));
         } else if (data instanceof String[] strs) {
             System.out.print("[");
             int n = strs.length;
