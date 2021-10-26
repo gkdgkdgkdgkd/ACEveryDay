@@ -1,17 +1,22 @@
+import java.util.Arrays;
+
 public class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
-        int n = matrix[0].length;
-        int x = matrix.length - 1;
-        int y = 0;
-        while (x >= 0 && y < n) {
-            if (matrix[x][y] == target) {
-                return true;
-            } else if (matrix[x][y] > target) {
-                --x;
-            } else {
-                ++y;
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        int[] stack = new int[1001];
+        int top = -1;
+        int[] map = new int[10_001];
+        Arrays.fill(map, -1);
+        for (int v : nums2) {
+            while (top != -1 && stack[top] < v) {
+                map[stack[top--]] = v;
             }
+            stack[++top] = v;
         }
-        return false;
+        int[] res = new int[nums1.length];
+        int index = 0;
+        for (int v : nums1) {
+            res[index++] = map[v];
+        }
+        return res;
     }
 }

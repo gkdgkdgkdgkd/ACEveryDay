@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.len" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4b424e6f-18b8-481a-b6ba-d62281ea6e9e/entities/entities.dat_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/node/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/node/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/node/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/chararray/CharArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/chararray/CharArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/check/CheckUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/check/CheckUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/intarray/IntArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/intarray/IntArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/list/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/list/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/listnode/ListNodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/listnode/ListNodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/print/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/PrintUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/random/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/random/RandomUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/str/StrUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/str/StrUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/strarray/StrArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/strarray/StrArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/treenode/TreeNodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/treenode/TreeNodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/211/WordDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/211/WordDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/284/PeekingIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/284/PeekingIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/295/MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/295/MedianFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/352/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/352/SummaryRanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../list/981/TimeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../list/981/TimeMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +86,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/foodwebsite" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.20433015" />
     <property name="project.structure.side.proportion" value="0.31633615" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -131,6 +162,10 @@
       <workItem from="1580882488412" duration="6892000" />
       <workItem from="1580893686636" duration="7952000" />
       <workItem from="1580960656973" duration="2761000" />
+      <workItem from="1635258397139" duration="394000" />
+      <workItem from="1635258810927" duration="1114000" />
+      <workItem from="1635263379764" duration="1036000" />
+      <workItem from="1635279813615" duration="1177000" />
     </task>
     <servers />
   </component>
