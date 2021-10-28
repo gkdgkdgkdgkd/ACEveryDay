@@ -9,6 +9,10 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(SOLUTION.removeInvalidParentheses("()())()(((())jfc"));
+        int n = 1;
+        while (n > 0) {
+            System.out.print(n+",");
+            n <<= 1;
+        }
     }
 }
