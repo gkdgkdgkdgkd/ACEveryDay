@@ -10,6 +10,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/print/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/print/PrintUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,7 @@
       <workItem from="1635997129920" duration="245000" />
       <workItem from="1636065531552" duration="4455000" />
       <workItem from="1636072269806" duration="8854000" />
-      <workItem from="1636092211598" duration="1188000" />
+      <workItem from="1636092211598" duration="6220000" />
     </task>
     <servers />
   </component>

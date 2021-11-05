@@ -5,37 +5,36 @@ import node.ListNode;
 import java.util.Arrays;
 
 public class PrintUtils {
-    public static void print(Object data) {
-        if (data instanceof int[][] arr) {
-            System.out.println(Arrays.deepToString(arr));
-        } else if (data instanceof char[][] arr) {
-            System.out.println(Arrays.deepToString(arr));
-        } else if (data instanceof char[] c) {
-            int n = c.length;
-            System.out.print("[");
-            for (int i = 0; i < n - 1; i++) {
-                System.out.print("\"" + c[i] + "\",");
+    public static void print(Object... obj) {
+        for (Object data : obj) {
+            switch (data) {
+                case int[][] arr -> System.out.print(Arrays.deepToString(arr));
+                case char[][] arr -> System.out.print(Arrays.deepToString(arr));
+                case char[] c -> {
+                    int n = c.length;
+                    System.out.print("[");
+                    for (int i = 0; i < n - 1; i++) {
+                        System.out.print("\"" + c[i] + "\",");
+                    }
+                    System.out.print("\"" + c[n - 1] + "\"]");
+                }
+                case int[] arr -> System.out.print(Arrays.toString(arr));
+                case long[] arr -> System.out.print(Arrays.toString(arr));
+                case String[] strs -> {
+                    System.out.print("[");
+                    int n = strs.length;
+                    for (int i = 0; i < n; i++) {
+                        System.out.print("\"" + strs[i] + "\"" + (i == n - 1 ? "" : ","));
+                    }
+                    System.out.print("]");
+                }
+                case double[] arr -> System.out.print(Arrays.toString(arr));
+                case ListNode[] arr -> System.out.print(Arrays.toString(arr));
+                case String ignored -> System.out.print("\"" + data + "\"");
+                default -> System.out.print(data);
             }
-            System.out.println("\"" + c[n - 1] + "\"]");
-        } else if (data instanceof int[] arr) {
-            System.out.println(Arrays.toString(arr));
-        } else if (data instanceof long[] arr) {
-            System.out.println(Arrays.toString(arr));
-        } else if (data instanceof String[] strs) {
-            System.out.print("[");
-            int n = strs.length;
-            for (int i = 0; i < n; i++) {
-                System.out.print("\"" + strs[i] + "\"" + (i == n - 1 ? "" : ","));
-            }
-            System.out.println("]");
-        } else if (data instanceof double[] arr) {
-            System.out.println(Arrays.toString(arr));
-        } else if (data instanceof ListNode[] arr) {
-            System.out.println(Arrays.toString(arr));
-        } else if (data instanceof String) {
-            System.out.println("\"" + data + "\"");
-        } else {
-            System.out.println(data);
+            System.out.print(" ");
         }
+        System.out.println();
     }
 }
