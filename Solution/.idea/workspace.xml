@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solution/BitMap.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Solution/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BitMap.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -166,7 +164,11 @@
       <workItem from="1635914302341" duration="1697000" />
       <workItem from="1635926793301" duration="3538000" />
       <workItem from="1635936605058" duration="3131000" />
-      <workItem from="1635986046186" duration="5756000" />
+      <workItem from="1635986046186" duration="5823000" />
+      <workItem from="1635997129920" duration="245000" />
+      <workItem from="1636065531552" duration="4455000" />
+      <workItem from="1636072269806" duration="8854000" />
+      <workItem from="1636092211598" duration="1188000" />
     </task>
     <servers />
   </component>

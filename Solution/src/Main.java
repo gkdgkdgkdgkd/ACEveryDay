@@ -1,14 +1,13 @@
 import utils.Utils;
 
-import java.util.stream.IntStream;
-
 public class Main {
     private static final Solution SOLUTION = new Solution();
-    public static void main(String[] args){
-        int a = 2;
-        int[] b = Utils.array(1,2);
-        Utils.print(a);
-        Utils.print(b);
-        Utils.print(SOLUTION.superPow(a,b));
+
+    public static void main(String[] args) {
+        int[] arr = Utils.randomArray(100_000,1,10_000);
+        int difference = Utils.randomInt(1,10);
+        Utils.print(arr);
+        Utils.print(difference);
+        Utils.print(SOLUTION.longestSubsequence(arr,difference));
     }
 }
