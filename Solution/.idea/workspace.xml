@@ -63,7 +63,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.20433015" />
     <property name="project.structure.side.proportion" value="0.31633615" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,7 +171,10 @@
       <workItem from="1636092211598" duration="6220000" />
       <workItem from="1636154980689" duration="2243000" />
       <workItem from="1636178086350" duration="8735000" />
-      <workItem from="1636252920892" duration="693000" />
+      <workItem from="1636252920892" duration="5038000" />
+      <workItem from="1636262217292" duration="2441000" />
+      <workItem from="1636286064090" duration="2869000" />
+      <workItem from="1636331962615" duration="980000" />
     </task>
     <servers />
   </component>
