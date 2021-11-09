@@ -1,18 +1,18 @@
 import utils.Utils;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.TimeUnit;
+import java.util.*;
 
 public class Main {
     private static final Solution SOLUTION = new Solution();
 
-    public static void main(String[] args) throws Exception {
-        String a = Utils.randomDigitStr(1000);
-        String b = Utils.randomDigitStr(1000);
-        Utils.print(a);
-        Utils.print(b);
+    public static void main(String[] args) {
+//        String str = Utils.randomStr(16, 'R', 'Y');
+        String str = "RRYGGYYRRYYGGYRR";
+//        str = new String(SOLUTION.addAndRemove(str.toCharArray(),0,' '));
+//        String hand = Utils.randomStr(5, 'R', 'Y');
+        String hand = "GGBBB";
+        Utils.print(str);
+        Utils.print(hand);
+        Utils.print(SOLUTION.findMinStep(str, hand));
     }
 }
