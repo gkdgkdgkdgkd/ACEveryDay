@@ -59,12 +59,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.person/ide-eval-resetter-2.3.5-c80a1d.zip" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.20433015" />
     <property name="project.structure.side.proportion" value="0.31633615" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -178,7 +178,12 @@
       <workItem from="1636331962615" duration="7279000" />
       <workItem from="1636368365281" duration="8616000" />
       <workItem from="1636420725538" duration="6413000" />
-      <workItem from="1636438146022" duration="3433000" />
+      <workItem from="1636438146022" duration="6008000" />
+      <workItem from="1636457976446" duration="1229000" />
+      <workItem from="1636462907255" duration="875000" />
+      <workItem from="1636504629427" duration="3001000" />
+      <workItem from="1636510226399" duration="104000" />
+      <workItem from="1636510344257" duration="56000" />
     </task>
     <servers />
   </component>
