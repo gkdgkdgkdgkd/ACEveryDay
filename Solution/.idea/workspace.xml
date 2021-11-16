@@ -7,7 +7,6 @@
     <list default="true" id="7ffe7ba5-c15e-4fbe-846c-8248ad1a1345" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapSum.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +194,10 @@
       <workItem from="1636808416609" duration="41000" />
       <workItem from="1636850576898" duration="149000" />
       <workItem from="1636850736132" duration="3254000" />
-      <workItem from="1636935081068" duration="802000" />
+      <workItem from="1636935081068" duration="839000" />
+      <workItem from="1636945087253" duration="485000" />
+      <workItem from="1637012595102" duration="2665000" />
+      <workItem from="1637049922692" duration="3440000" />
     </task>
     <servers />
   </component>
