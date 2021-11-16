@@ -76,7 +76,7 @@ public class Utils {
         return IntArrayUtils.randomArray01(len);
     }
 
-    public static void print(Object ... data) {
+    public static void print(Object data) {
         PrintUtils.print(data);
     }
 
