@@ -13,6 +13,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Main {
     private static final Solution SOLUTION = new Solution();
     public static void main(String[] args) {
-        Utils.print(SOLUTION.poorPigs(999,40,100));
+        Utils.print(SOLUTION.uniquePaths(3,7));
     }
 }
