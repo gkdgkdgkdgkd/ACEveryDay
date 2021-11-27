@@ -11,8 +11,13 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
-    private static final Solution SOLUTION = new Solution();
+    private static final Solution SOLUTION = new Solution(3,1);
     public static void main(String[] args) {
-        Utils.print(SOLUTION.uniquePaths(3,7));
+        Utils.print(SOLUTION.flip());
+        Utils.print(SOLUTION.flip());
+        Utils.print(SOLUTION.flip());
+        SOLUTION.reset();
+        Utils.print(SOLUTION.flip());
+//        Utils.print(SOLUTION.flip());
     }
 }
