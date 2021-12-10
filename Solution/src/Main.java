@@ -13,12 +13,5 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        String[] str = new String[3];
-        for (int i = 0; i < 10; i++) {
-            str[0] = Utils.randomStr(3,'O','X');
-            str[1] = Utils.randomStr(3,'O','X');
-            str[2] = Utils.randomStr(3,'O','X');
-            Utils.print(str);
-        }
     }
 }
