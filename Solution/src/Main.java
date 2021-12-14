@@ -13,6 +13,10 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(Utils.array2(40,Utils.randomArray(40*40,0,100)));
+//        int[][] arr = {{1,2},{3,4},{5,6},{7,8},{9,10}};
+//        Utils.print(SOLUTION.scheduleCourse(arr));
+//        Utils.print(Utils.array2(2,Utils.array(1,2,3,4,5,6,7,8,9,10)));
+//        Utils.print(SOLUTION.scheduleCourse(arr));
+        Utils.print(Utils.array2(2,Utils.randomArray(5000,1,2000)));
     }
 }
