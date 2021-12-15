@@ -13,10 +13,8 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-//        int[][] arr = {{1,2},{3,4},{5,6},{7,8},{9,10}};
-//        Utils.print(SOLUTION.scheduleCourse(arr));
-//        Utils.print(Utils.array2(2,Utils.array(1,2,3,4,5,6,7,8,9,10)));
-//        Utils.print(SOLUTION.scheduleCourse(arr));
-        Utils.print(Utils.array2(2,Utils.randomArray(5000,1,2000)));
+        int[][] richer = Utils.array2(2, 1, 0, 2, 1, 3, 1, 3, 7, 4, 3, 5, 3, 6, 3);
+        int[] quiet = Utils.array(3, 2, 5, 4, 6, 1, 7, 0);
+        Utils.print(SOLUTION.loudAndRich(richer, quiet));
     }
 }
