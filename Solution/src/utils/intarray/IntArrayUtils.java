@@ -1,5 +1,8 @@
 package utils.intarray;
 
+import utils.Utils;
+import utils.random.RandomUtils;
+
 import java.util.*;
 
 import static utils.random.RandomUtils.randomInt;
@@ -42,12 +45,19 @@ public class IntArrayUtils {
     }
 
     public static int[] randomArrayNoRepeated(int len, int start, int end) {
-        List<Integer> list = new ArrayList<>(end - start+1);
-        for (int i = start; i <= end; i++) {
-            list.add(i);
+        if (end - start + 1 < len) {
+            return new int[0];
         }
-        Collections.shuffle(list);
-        return list.stream().limit(len).mapToInt(i -> i).toArray();
+        List<Integer> list = new ArrayList<>(len);
+        Set<Integer> set = new HashSet<>(len);
+        while (list.size() < len) {
+            int num = RandomUtils.randomInt(start, end);
+            if (!set.contains(num)) {
+                set.add(num);
+                list.add(num);
+            }
+        }
+        return list.stream().mapToInt(i -> i).toArray();
     }
 
     public static int[] randomArraySortedNoRepeated(int len, int start, int end) {
