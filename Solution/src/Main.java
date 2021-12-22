@@ -13,6 +13,6 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(SOLUTION.dayOfYear("2003-03-04"));
+        Utils.print(SOLUTION.repeatedStringMatch("abcd","cdabcdab"));
     }
 }
