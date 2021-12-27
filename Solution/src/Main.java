@@ -13,5 +13,8 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
+        int[] arr = Utils.randomArray(1_000,1,120);
+        Utils.print(arr);
+//        Utils.print(SOLUTION.numFriendRequests(Utils.array(16,16)));
     }
 }
