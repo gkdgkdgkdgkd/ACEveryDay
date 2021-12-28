@@ -13,8 +13,8 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        int[] arr = Utils.randomArray(1_000,1,120);
-        Utils.print(arr);
-//        Utils.print(SOLUTION.numFriendRequests(Utils.array(16,16)));
+//        String[] str = Utils.array("cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat");
+        String[] str = Utils.array("a","aa","aaa","aaaa","aaaaa","aaaaaa");
+        Utils.print(SOLUTION.findAllConcatenatedWordsInADict(str));
     }
 }
