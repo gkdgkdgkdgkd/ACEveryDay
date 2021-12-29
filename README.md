@@ -263,3 +263,4 @@
 - [1078](https://github.com/2293736867/ACEveryDay/tree/main/list/1078)
 - [825](https://github.com/2293736867/ACEveryDay/tree/main/list/825)
 - [472](https://github.com/2293736867/ACEveryDay/tree/main/list/472)
+- [1995](https://github.com/2293736867/ACEveryDay/tree/main/list/1995)
