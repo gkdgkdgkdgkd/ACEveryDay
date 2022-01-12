@@ -14,5 +14,6 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
+        Utils.print(Utils.randomArray(10000,Integer.MIN_VALUE,Integer.MAX_VALUE));
     }
 }
