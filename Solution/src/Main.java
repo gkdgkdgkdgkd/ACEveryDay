@@ -11,8 +11,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 public class Main {
-//    private static final Solution SOLUTION = new Solution();
+    private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
+        Utils.print(SOLUTION.countVowelPermutation(5));
     }
 }
