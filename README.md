@@ -300,3 +300,4 @@
 - [1763](https://github.com/2293736867/ACEveryDay/tree/main/list/1763)
 - [2000](https://github.com/2293736867/ACEveryDay/tree/main/list/2000)
 - [1414](https://github.com/2293736867/ACEveryDay/tree/main/list/1414)
+- [1725](https://github.com/2293736867/ACEveryDay/tree/main/list/1725)
