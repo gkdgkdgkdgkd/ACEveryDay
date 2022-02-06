@@ -14,7 +14,5 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        int[][] arr = Utils.array2(5,Utils.randomArray(25,1,100));
-        Utils.print(arr);
     }
 }
