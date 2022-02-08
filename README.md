@@ -304,3 +304,4 @@
 - [1219](https://github.com/2293736867/ACEveryDay/tree/main/list/1219)
 - [1748](https://github.com/2293736867/ACEveryDay/tree/main/list/1748)
 - [1405](https://github.com/2293736867/ACEveryDay/tree/main/list/1405)
+- [1001](https://github.com/2293736867/ACEveryDay/tree/main/list/1001)
