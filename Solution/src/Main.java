@@ -14,6 +14,6 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(SOLUTION.simplifiedFractions(10));
+        Utils.print(Utils.array2(500,Utils.randomArray01(500*500)));
     }
 }
