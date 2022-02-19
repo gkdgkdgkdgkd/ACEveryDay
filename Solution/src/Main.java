@@ -14,6 +14,8 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(SOLUTION.knightProbability(1,0,0,0));
+        int[] arr = Utils.randomArrayNoRepeated(100,1,100);
+        Utils.print(arr);
+        Utils.print(SOLUTION.pancakeSort(arr).size());
     }
 }
