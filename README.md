@@ -316,3 +316,4 @@
 - [688](https://github.com/2293736867/ACEveryDay/tree/main/list/688)
 - [1791](https://github.com/2293736867/ACEveryDay/tree/main/list/1791)
 - [969](https://github.com/2293736867/ACEveryDay/tree/main/list/969)
+- [717](https://github.com/2293736867/ACEveryDay/tree/main/list/717)

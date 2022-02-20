@@ -14,8 +14,10 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        int[] arr = Utils.randomArrayNoRepeated(100,1,100);
-        Utils.print(arr);
-        Utils.print(SOLUTION.pancakeSort(arr).size());
+        for (int i = 0; i < 10; i++) {
+            int[] arr = Utils.randomArray01(1000);
+            arr[999] = 0;
+            Utils.print(arr);
+        }
     }
 }
