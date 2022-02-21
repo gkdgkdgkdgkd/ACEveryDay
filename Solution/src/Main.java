@@ -14,10 +14,9 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            int[] arr = Utils.randomArray01(1000);
-            arr[999] = 0;
-            Utils.print(arr);
-        }
+        Utils.print(Utils.randomStr(50000,'L','R','.'));
+        Utils.print(Utils.randomStr(50000,'L','R','.'));
+        Utils.print(Utils.randomStr(50000,'L','R','.'));
+        Utils.print(Utils.randomStr(50000,'L','R','.'));
     }
 }

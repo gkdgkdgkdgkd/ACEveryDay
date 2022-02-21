@@ -6,6 +6,10 @@ import java.util.Arrays;
 
 public class PrintUtils {
     public static void print(Object obj) {
+        if (obj == null) {
+            System.out.println("null");
+            return;
+        }
         switch (obj) {
             case int[][] arr -> System.out.print(Arrays.deepToString(arr));
             case char[][] arr -> System.out.print(Arrays.deepToString(arr));
