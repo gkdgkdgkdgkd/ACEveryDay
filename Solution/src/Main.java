@@ -14,9 +14,5 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(Utils.randomStr(50000,'L','R','.'));
-        Utils.print(Utils.randomStr(50000,'L','R','.'));
-        Utils.print(Utils.randomStr(50000,'L','R','.'));
-        Utils.print(Utils.randomStr(50000,'L','R','.'));
     }
 }
