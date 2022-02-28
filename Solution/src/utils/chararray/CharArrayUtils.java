@@ -20,7 +20,7 @@ public class CharArrayUtils {
         return arr;
     }
 
-    public static char[] randomLowerCaseArray(int len) {
+    public static char[] randomLowercaseArray(int len) {
         char[] arr = new char[len];
         for (int i = 0; i < len; i++) {
             arr[i] = (char) ('a' + RandomUtils.randomInt(26));
@@ -28,7 +28,7 @@ public class CharArrayUtils {
         return arr;
     }
 
-    public static char[] randomUpperCaseArray(int len) {
+    public static char[] randomUppercaseArray(int len) {
         char[] arr = new char[len];
         for (int i = 0; i < len; i++) {
             arr[i] = (char) ('A' + RandomUtils.randomInt(26));

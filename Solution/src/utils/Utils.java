@@ -49,12 +49,12 @@ public class Utils {
         return RandomUtils.randomInt(start, end);
     }
 
-    public static char[] randomLowerCaseArray(int len) {
-        return CharArrayUtils.randomLowerCaseArray(len);
+    public static char[] randomLowercaseArray(int len) {
+        return CharArrayUtils.randomLowercaseArray(len);
     }
 
-    public static char[] randomUpperCaseArray(int len) {
-        return CharArrayUtils.randomUpperCaseArray(len);
+    public static char[] randomUppercaseArray(int len) {
+        return CharArrayUtils.randomUppercaseArray(len);
     }
 
     public static int[] randomArray(int len, int start, int end) {
@@ -85,8 +85,16 @@ public class Utils {
         return StrArrayUtils.randomStrArray(arrayLen, strLen);
     }
 
-    public static String randomStr(int len) {
-        return StrUtils.randomStr(len);
+    public static String randomLowercaseStr(int len) {
+        return StrUtils.randomLowercaseStr(len);
+    }
+
+    public static String randomUppercaseStr(int len) {
+        return StrUtils.randomUppercaseStr(len);
+    }
+
+    public static String randomLetterStr(int len) {
+        return StrUtils.randomLetterStr(len);
     }
 
     public static String randomStr(int len, char... ch) {
