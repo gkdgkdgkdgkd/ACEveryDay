@@ -4,6 +4,7 @@ import node.ListNode;
 import node.TreeNode;
 import utils.chararray.CharArrayUtils;
 import utils.check.CheckUtils;
+import utils.convert.ConvertUtils;
 import utils.intarray.IntArrayUtils;
 import utils.list.ListUtils;
 import utils.listnode.ListNodeUtils;
@@ -48,11 +49,11 @@ public class Utils {
         return RandomUtils.randomInt(start, end);
     }
 
-    public static char[] randomLowerCaseArray(int len){
+    public static char[] randomLowerCaseArray(int len) {
         return CharArrayUtils.randomLowerCaseArray(len);
     }
 
-    public static char[] randomUpperCaseArray(int len){
+    public static char[] randomUpperCaseArray(int len) {
         return CharArrayUtils.randomUpperCaseArray(len);
     }
 
@@ -88,8 +89,8 @@ public class Utils {
         return StrUtils.randomStr(len);
     }
 
-    public static String randomStr(int len,char ... ch){
-        return StrUtils.randomStr(len,ch);
+    public static String randomStr(int len, char... ch) {
+        return StrUtils.randomStr(len, ch);
     }
 
     public static String randomDigitStr(int len) {
@@ -109,7 +110,7 @@ public class Utils {
     }
 
     @SafeVarargs
-    public static <T> List<T> listOf(T ... val) {
+    public static <T> List<T> listOf(T... val) {
         return ListUtils.listOf(val);
     }
 
@@ -119,5 +120,17 @@ public class Utils {
 
     public static TreeNode treeNode(int... v) {
         return TreeNodeUtils.deserialize(v);
+    }
+
+    public static int[] strToArray(String str) {
+        return ConvertUtils.strToArray(str);
+    }
+
+    public static int[][] strToArray2(String str) {
+        return ConvertUtils.strToArray2(str);
+    }
+
+    public static int[][] randomArray2(int m, int n, int start, int end) {
+        return IntArrayUtils.randomArray2(m, n, start, end);
     }
 }

@@ -73,4 +73,12 @@ public class IntArrayUtils {
         }
         return arr;
     }
+
+    public static int[][] randomArray2(int m, int n, int start, int end) {
+        int[][] arr = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            arr[i] = randomArray(n, start, end);
+        }
+        return arr;
+    }
 }
