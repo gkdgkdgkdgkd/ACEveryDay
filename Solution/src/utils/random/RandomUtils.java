@@ -14,9 +14,16 @@ public class RandomUtils {
     }
 
     public static int randomInt(int start, int end) {
-        if(start == Integer.MIN_VALUE && end == Integer.MAX_VALUE){
+        if (start == Integer.MIN_VALUE && end == Integer.MAX_VALUE) {
             return random.nextInt();
         }
         return random.nextInt(end - start + 1) + start;
+    }
+
+    public static long randomLong(long start, long end) {
+        if (start == Long.MIN_VALUE && end == Long.MAX_VALUE) {
+            return random.nextLong();
+        }
+        return random.nextLong(end - start + 1) + start;
     }
 }

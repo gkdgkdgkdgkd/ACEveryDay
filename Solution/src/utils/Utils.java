@@ -49,6 +49,10 @@ public class Utils {
         return RandomUtils.randomInt(start, end);
     }
 
+    public static long randomLong(long start,long end){
+        return RandomUtils.randomLong(start,end);
+    }
+
     public static char[] randomLowercaseArray(int len) {
         return CharArrayUtils.randomLowercaseArray(len);
     }
