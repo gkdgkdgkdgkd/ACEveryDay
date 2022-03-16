@@ -6,6 +6,19 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(Utils.randomArray(16,1,100_000));
+        AllOne allOne = new AllOne();
+        allOne.inc("hello");
+        allOne.inc("goodbye");
+        allOne.inc("hello");
+        allOne.inc("hello");
+        System.out.println(allOne.getMaxKey());
+        allOne.inc("leet");
+        allOne.inc("code");
+        allOne.inc("leet");
+        allOne.dec("hello");
+        allOne.inc("leet");
+        allOne.inc("code");
+        allOne.inc("code");
+        System.out.println(allOne.getMaxKey());
     }
 }
