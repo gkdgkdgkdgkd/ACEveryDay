@@ -6,19 +6,7 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        AllOne allOne = new AllOne();
-        allOne.inc("hello");
-        allOne.inc("goodbye");
-        allOne.inc("hello");
-        allOne.inc("hello");
-        System.out.println(allOne.getMaxKey());
-        allOne.inc("leet");
-        allOne.inc("code");
-        allOne.inc("leet");
-        allOne.dec("hello");
-        allOne.inc("leet");
-        allOne.inc("code");
-        allOne.inc("code");
-        System.out.println(allOne.getMaxKey());
+//        Utils.print(SOLUTION.longestWord(Utils.array("a", "banana", "app", "appl", "ap", "apply", "apple")));
+        Utils.print(SOLUTION.longestWord(Utils.array("yo","ew","fc","zrc","yodn","fcm","qm","qmo","fcmz","z","ewq","yod","ewqz","y")));
     }
 }
