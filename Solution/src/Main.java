@@ -7,9 +7,7 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(SOLUTION.countNumbersWithUniqueDigits(0));
-        Utils.print(SOLUTION.countNumbersWithUniqueDigits(1));
-        Utils.print(SOLUTION.countNumbersWithUniqueDigits(2));
-        Utils.print(SOLUTION.countNumbersWithUniqueDigits(3));
+        Utils.print(Utils.randomArray(26,2,10));
+        Utils.print(Utils.randomLowercaseStr(1000));
     }
 }
