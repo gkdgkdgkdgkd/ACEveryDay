@@ -15,8 +15,5 @@ import java.util.stream.IntStream;
 public class Main {
     private static final Solution SOLUTION = new Solution();
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.lengthLongestPath("a"));
-        Utils.print(SOLUTION.lengthLongestPath("file1.txt\nfile2.txt\nlongfile.txt"));
-        Utils.print(SOLUTION.lengthLongestPath("dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"));
     }
 }
