@@ -15,11 +15,9 @@ import java.util.Set;
 import java.util.stream.IntStream;
 
 public class Main {
-    private static final Solution SOLUTION = new Solution();
+    private static final Solution SOLUTION = new Solution(Utils.array(1,2,3,3,3));
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.binaryGap(22));
-        Utils.print(SOLUTION.binaryGap(8));
-        Utils.print(SOLUTION.binaryGap(5));
+        Utils.print(SOLUTION.pick(1));
     }
 }
