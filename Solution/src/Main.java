@@ -8,16 +8,13 @@ import javax.crypto.spec.SecretKeySpec;
 import java.math.BigInteger;
 import java.security.Provider;
 import java.security.SecureRandom;
-import java.util.Base64;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.IntStream;
 
 public class Main {
-    private static final Solution SOLUTION = new Solution(Utils.array(1,2,3,3,3));
+    private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.pick(1));
+        Utils.print(Utils.randomArray2(50, 50, 1, 50));
     }
 }
