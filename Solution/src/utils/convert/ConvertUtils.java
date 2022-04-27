@@ -9,22 +9,22 @@ public class ConvertUtils {
         int n = c.length;
         LinkedList<LinkedList<Integer>> list = new LinkedList<>();
         int base = 0;
-        for (int i = n - 2; i >= 1; --i) {
-            if (c[i] == ']') {
+        for (int i = 1; i < n - 2; ++i) {
+            if (c[i] == '[') {
                 LinkedList<Integer> temp = new LinkedList<>();
-                for (--i; c[i] != '['; --i) {
+                for (++i; c[i] != ']'; ++i) {
                     if (c[i] >= '0' && c[i] <= '9') {
                         base *= 10;
                         base += c[i] - '0';
                     }
                     if (c[i] == ',') {
-                        temp.addFirst(base);
+                        temp.addLast(base);
                         base = 0;
                     }
                 }
-                temp.addFirst(base);
+                temp.addLast(base);
                 base = 0;
-                list.addFirst(new LinkedList<>(temp));
+                list.addLast(new LinkedList<>(temp));
                 temp.clear();
             }
         }
