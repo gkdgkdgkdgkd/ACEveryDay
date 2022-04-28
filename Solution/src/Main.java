@@ -16,8 +16,6 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        int[][] arr = Utils.strToArray2("[[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]");
-        Utils.print(arr);
-        Utils.print(SOLUTION.pacificAtlantic(arr));
+        Utils.print(Utils.randomArray(5000,0,5000));
     }
 }
