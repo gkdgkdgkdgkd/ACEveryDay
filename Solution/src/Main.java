@@ -16,6 +16,8 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(Utils.randomArray(5000,0,5000));
+        int[][] arr = Utils.strToArray2("[[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0]]");
+        Utils.print(SOLUTION.construct(arr));
+//        Utils.print(Utils.randomArray(5000,0,5000));
     }
 }
