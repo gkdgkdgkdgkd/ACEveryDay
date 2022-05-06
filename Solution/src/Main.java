@@ -16,10 +16,13 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-//        Utils.print(SOLUTION.numSubarrayProductLessThanK(Utils.array(10,5,2,6),100));
-//        Utils.print(SOLUTION.numSubarrayProductLessThanK(Utils.array(1,2,3),0));
-//        Utils.print(Utils.randomArray(10_000,1,1000));
-//        Utils.print(Utils.randomInt(0,1_000_000));
-        Utils.print(SOLUTION.numSubarrayProductLessThanK(Utils.array(100,2,3,4,100,5,6,7,100),100));
+        RecentCounter counter = new RecentCounter();
+        for (int i = 0; i < 3003; i++) {
+            if(i > 3000){
+                Utils.print(counter.ping(i));
+            }else{
+                counter.ping(i);
+            }
+        }
     }
 }
