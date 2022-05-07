@@ -16,13 +16,7 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        RecentCounter counter = new RecentCounter();
-        for (int i = 0; i < 3003; i++) {
-            if(i > 3000){
-                Utils.print(counter.ping(i));
-            }else{
-                counter.ping(i);
-            }
-        }
+        Utils.print(SOLUTION.minMutation("AAAACCCC","CCCCCCCC",Utils.array("AAAACCCA","AAACCCCA","AACCCCCA","AACCCCCC","ACCCCCCC","CCCCCCCC","AAACCCCC","AACCCCCC")));
+        Utils.print(SOLUTION.minMutation("AAAAAAAA", "CCCCCCCC", Utils.array("AAAAAAAA", "AAAAAAAC", "AAAAAACC", "AAAAACCC", "AAAACCCC", "AACACCCC", "ACCACCCC", "ACCCCCCC", "CCCCCCCA")));
     }
 }
