@@ -16,7 +16,6 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.minMutation("AAAACCCC","CCCCCCCC",Utils.array("AAAACCCA","AAACCCCA","AACCCCCA","AACCCCCC","ACCCCCCC","CCCCCCCC","AAACCCCC","AACCCCCC")));
-        Utils.print(SOLUTION.minMutation("AAAAAAAA", "CCCCCCCC", Utils.array("AAAAAAAA", "AAAAAAAC", "AAAAAACC", "AAAAACCC", "AAAACCCC", "AACACCCC", "ACCACCCC", "ACCCCCCC", "CCCCCCCA")));
+        Utils.print(SOLUTION.findDuplicates(Utils.array(4,3,2,7,8,2,3,1)));
     }
 }
