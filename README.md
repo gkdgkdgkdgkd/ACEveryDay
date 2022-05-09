@@ -393,3 +393,4 @@
 - [933](https://github.com/2293736867/ACEveryDay/tree/main/list/933)
 - [433](https://github.com/2293736867/ACEveryDay/tree/main/list/433)
 - [442](https://github.com/2293736867/ACEveryDay/tree/main/list/442)
+- [942](https://github.com/2293736867/ACEveryDay/tree/main/list/942)

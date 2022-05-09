@@ -14,8 +14,7 @@ import java.util.stream.IntStream;
 
 public class Main {
     private static final Solution SOLUTION = new Solution();
-
     public static void main(String[] args) throws Exception {
-        Utils.print(SOLUTION.findDuplicates(Utils.array(4,3,2,7,8,2,3,1)));
+        Utils.print(SOLUTION.diStringMatch("IDID"));
     }
 }
