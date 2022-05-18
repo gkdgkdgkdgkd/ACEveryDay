@@ -10,31 +10,36 @@ public class PrintUtils {
             System.out.println("null");
             return;
         }
-        switch (obj) {
-            case int[][] arr -> System.out.print(Arrays.deepToString(arr));
-            case char[][] arr -> System.out.print(Arrays.deepToString(arr));
-            case char[] c -> {
-                int n = c.length;
-                System.out.print("[");
-                for (int i = 0; i < n - 1; i++) {
-                    System.out.print("\"" + c[i] + "\",");
-                }
-                System.out.print("\"" + c[n - 1] + "\"]");
+        if (obj instanceof int[][] arr) {
+            System.out.print(Arrays.deepToString(arr));
+        } else if (obj instanceof char[][] arr) {
+            System.out.print(Arrays.deepToString(arr));
+        } else if (obj instanceof char[] c) {
+            int n = c.length;
+            System.out.print("[");
+            for (int i = 0; i < n - 1; i++) {
+                System.out.print("\"" + c[i] + "\",");
             }
-            case int[] arr -> System.out.print(Arrays.toString(arr));
-            case long[] arr -> System.out.print(Arrays.toString(arr));
-            case String[] strs -> {
-                System.out.print("[");
-                int n = strs.length;
-                for (int i = 0; i < n; i++) {
-                    System.out.print("\"" + strs[i] + "\"" + (i == n - 1 ? "" : ","));
-                }
-                System.out.print("]");
+            System.out.print("\"" + c[n - 1] + "\"]");
+        } else if (obj instanceof int[] arr) {
+            System.out.print(Arrays.toString(arr));
+        } else if (obj instanceof long[] arr) {
+            System.out.print(Arrays.toString(arr));
+        } else if (obj instanceof String[] strs) {
+            System.out.print("[");
+            int n = strs.length;
+            for (int i = 0; i < n; i++) {
+                System.out.print("\"" + strs[i] + "\"" + (i == n - 1 ? "" : ","));
             }
-            case double[] arr -> System.out.print(Arrays.toString(arr));
-            case ListNode[] arr -> System.out.print(Arrays.toString(arr));
-            case String ignored -> System.out.print("\"" + obj + "\"");
-            default -> System.out.print(obj);
+            System.out.print("]");
+        } else if (obj instanceof double[] arr) {
+            System.out.print(Arrays.toString(arr));
+        } else if (obj instanceof ListNode[] arr) {
+            System.out.print(Arrays.toString(arr));
+        } else if (obj instanceof String str) {
+            System.out.print("\"" + str + "\"");
+        } else {
+            System.out.print(obj);
         }
         System.out.println();
     }
