@@ -18,8 +18,8 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-//        int n = Utils.randomInt(1, 10);
-//        Utils.print(Utils.randomArray(n, 1, 40));
+//        int n = Utils.randomInt(1, 10_000);
+//        Utils.print(Utils.randomArray(n, 1, 10_000));
 //        Utils.print(Utils.randomInt(1, n));
     }
 }
