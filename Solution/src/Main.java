@@ -18,6 +18,11 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) throws Exception {
-        Utils.print(Utils.randomArray(10000,1,10000));
+        int cur = 0;
+        for (int i = 0; i < 20; i++) {
+            cur <<= 1;
+            cur |= 1;
+        }
+        Utils.print(cur);
     }
 }
