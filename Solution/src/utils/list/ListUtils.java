@@ -13,4 +13,17 @@ public class ListUtils {
             }
         };
     }
+
+    public static List<List<Integer>> list2(int k, int... v) {
+        int n = v.length / k;
+        List<List<Integer>> list = new ArrayList<>(n);
+        for (int i = 0; i < n; i++) {
+            List<Integer> arr = new ArrayList<>();
+            for (int j = 0; j < k; j++) {
+                arr.add(v[i * k + j]);
+            }
+            list.add(arr);
+        }
+        return list;
+    }
 }

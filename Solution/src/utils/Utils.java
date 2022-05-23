@@ -49,8 +49,8 @@ public class Utils {
         return RandomUtils.randomInt(start, end);
     }
 
-    public static long randomLong(long start,long end){
-        return RandomUtils.randomLong(start,end);
+    public static long randomLong(long start, long end) {
+        return RandomUtils.randomLong(start, end);
     }
 
     public static char[] randomLowercaseArray(int len) {
@@ -124,6 +124,10 @@ public class Utils {
     @SafeVarargs
     public static <T> List<T> listOf(T... val) {
         return ListUtils.listOf(val);
+    }
+
+    public static List<List<Integer>> list2(int k, int... v) {
+        return ListUtils.list2(k, v);
     }
 
     public static boolean checkSorted(int[] v) {
