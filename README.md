@@ -416,3 +416,4 @@
 - [486](https://github.com/2293736867/ACEveryDay/tree/main/list/486)
 - [1022](https://github.com/2293736867/ACEveryDay/tree/main/list/1022)
 - [剑指OfferII114](https://github.com/2293736867/ACEveryDay/tree/main/list/剑指OfferII114)
+- [473](https://github.com/2293736867/ACEveryDay/tree/main/list/473)
