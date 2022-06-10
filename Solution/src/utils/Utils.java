@@ -93,6 +93,10 @@ public class Utils {
         return StrUtils.randomLowercaseStr(len);
     }
 
+    public static String[] randomLowercaseStr(int len, int count) {
+        return StrUtils.randomLowerCaseStr(len, count);
+    }
+
     public static String randomUppercaseStr(int len) {
         return StrUtils.randomUppercaseStr(len);
     }

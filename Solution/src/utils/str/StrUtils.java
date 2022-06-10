@@ -26,6 +26,14 @@ public class StrUtils {
         return buildRandomStr(len, lowerCaseLetter);
     }
 
+    public static String[] randomLowerCaseStr(int len, int count) {
+        String[] str = new String[count];
+        for (int i = 0; i < count; i++) {
+            str[i] = randomLowercaseStr(len);
+        }
+        return str;
+    }
+
     public static String randomUppercaseStr(int len) {
         return buildRandomStr(len, upperCaseLetter);
     }
