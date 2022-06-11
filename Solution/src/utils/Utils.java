@@ -82,7 +82,11 @@ public class Utils {
     }
 
     public static void print(Object data) {
-        PrintUtils.print(data);
+        PrintUtils.print(data, false);
+    }
+
+    public static void print(Object data, boolean split) {
+        PrintUtils.print(data, split);
     }
 
     public static String[] randomStrArray(int arrayLen, int strLen) {
