@@ -65,6 +65,10 @@ public class Utils {
         return IntArrayUtils.randomArray(len, start, end);
     }
 
+    public static int[][] randomArray(int len, int start, int end, int count) {
+        return IntArrayUtils.randomArray(len, start, end, count);
+    }
+
     public static int[] randomArraySorted(int len, int start, int end) {
         return IntArrayUtils.randomArraySorted(len, start, end);
     }

@@ -38,6 +38,14 @@ public class IntArrayUtils {
         return arr;
     }
 
+    public static int[][] randomArray(int len, int start, int end, int count) {
+        int[][] arr = new int[count][len];
+        for (int i = 0; i < count; i++) {
+            arr[i] = randomArray(len, start, end);
+        }
+        return arr;
+    }
+
     public static int[] randomArraySorted(int len, int start, int end) {
         int[] arr = randomArray(len, start, end);
         Arrays.sort(arr);
