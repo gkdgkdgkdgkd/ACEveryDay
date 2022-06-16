@@ -32,7 +32,7 @@ public class PrintUtils {
             for (int i = 0; i < n - 1; i++) {
                 System.out.print("\"" + c[i] + "\",");
             }
-            System.out.print("\"" + c[n - 1] + "\"]");
+            System.out.println("\"" + c[n - 1] + "\"]");
         });
         notSeparatedInterface.put(String[].class, o -> {
             String[] str = (String[]) o;
@@ -41,15 +41,15 @@ public class PrintUtils {
             for (int i = 0; i < n; i++) {
                 System.out.print("\"" + str[i] + "\"" + (i == n - 1 ? "" : ","));
             }
-            System.out.print("]");
+            System.out.println("]");
         });
-        notSeparatedInterface.put(int[].class, o -> System.out.print(Arrays.toString((int[]) o)));
-        notSeparatedInterface.put(long[].class, o -> System.out.print(Arrays.toString((long[]) o)));
-        notSeparatedInterface.put(double[].class, o -> System.out.print(Arrays.toString((double[]) o)));
-        notSeparatedInterface.put(ListNode[].class, o -> System.out.print(Arrays.toString((ListNode[]) o)));
-        notSeparatedInterface.put(int[][].class, o -> System.out.print(Arrays.deepToString((int[][]) o)));
-        notSeparatedInterface.put(char[][].class, o -> System.out.print(Arrays.deepToString((char[][]) o)));
-        notSeparatedInterface.put(String.class, o -> System.out.print("\"" + o + "\""));
+        notSeparatedInterface.put(int[].class, o -> System.out.println(Arrays.toString((int[]) o)));
+        notSeparatedInterface.put(long[].class, o -> System.out.println(Arrays.toString((long[]) o)));
+        notSeparatedInterface.put(double[].class, o -> System.out.println(Arrays.toString((double[]) o)));
+        notSeparatedInterface.put(ListNode[].class, o -> System.out.println(Arrays.toString((ListNode[]) o)));
+        notSeparatedInterface.put(int[][].class, o -> System.out.println(Arrays.deepToString((int[][]) o)));
+        notSeparatedInterface.put(char[][].class, o -> System.out.println(Arrays.deepToString((char[][]) o)));
+        notSeparatedInterface.put(String.class, o -> System.out.println("\"" + o + "\""));
     }
 
     public static void print(Object obj, boolean split) {
@@ -61,7 +61,6 @@ public class PrintUtils {
             separatedInterface.getOrDefault(obj.getClass(), System.out::println).accept(obj);
         } else {
             notSeparatedInterface.getOrDefault(obj.getClass(), System.out::println).accept(obj);
-            System.out.println();
         }
     }
 }
