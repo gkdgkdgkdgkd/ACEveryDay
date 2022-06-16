@@ -435,3 +435,4 @@
 - [1051](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/1051)
 - [498](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/498)
 - [719](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/719)
+- [532](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/532)
