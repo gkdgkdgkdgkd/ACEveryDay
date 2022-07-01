@@ -1,30 +1,34 @@
-public class Solution {
-    private static final int[] prime = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97};
-    private static final boolean[] isPrime = new boolean[101];
+import java.util.ArrayList;
+import java.util.List;
 
-    static {
-        for (int v : prime) {
-            isPrime[v] = true;
-        }
+public class Solution {
+    private char[] cs;
+
+    public List<Integer> diffWaysToCompute(String s) {
+        cs = s.toCharArray();
+        return dfs(0, cs.length - 1);
     }
 
-    public int numPrimeArrangements(int n) {
-        int primeCount = 0;
-        for (int i = 1; i <= n; i++) {
-            if (isPrime[i]) {
-                ++primeCount;
+    private List<Integer> dfs(int l, int r) {
+        List<Integer> ans = new ArrayList<>();
+        for (int i = l; i <= r; i++) {
+            if (cs[i] >= '0' && cs[i] <= '9') continue;
+            List<Integer> l1 = dfs(l, i - 1), l2 = dfs(i + 1, r);
+            for (int a : l1) {
+                for (int b : l2) {
+                    int cur;
+                    if (cs[i] == '+') cur = a + b;
+                    else if (cs[i] == '-') cur = a - b;
+                    else cur = a * b;
+                    ans.add(cur);
+                }
             }
         }
-        long sum = 1;
-        for (int i = 1; i <= primeCount; i++) {
-            sum *= i;
-            sum %= 1_000_000_007L;
+        if (ans.isEmpty()) {
+            int cur = 0;
+            for (int i = l; i <= r; i++) cur = cur * 10 + (cs[i] - '0');
+            ans.add(cur);
         }
-
-        for (int i = 1; i <= n - primeCount; i++) {
-            sum *= i;
-            sum %= 1_000_000_007L;
-        }
-        return (int) sum;
+        return ans;
     }
 }
