@@ -1,28 +1,22 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.PriorityQueue;
 
 public class Solution {
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
-        LinkedList<int[]> queue = new LinkedList<>();
-        int start = 0;
-        int n = stations.length;
-        for (int i = 0; i < n && startFuel >= stations[i][0]; i++) {
-            start = i;
-            queue.add(new int[]{i, startFuel - stations[i][0]});
-        }
-        if (queue.isEmpty()) {
-            return -1;
-        }
-        ++start;
+        PriorityQueue<Integer> queue = new PriorityQueue<>((a, b) -> b - a);
         int res = 0;
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                int[] front = queue.poll();
-                for (int j = start; j < n && front[1]+stations[front[0]][0] >= stations[j][0]; j++) {
-                    queue.add();
-                }
+        int index = 0;
+        int n = stations.length;
+        while (index < n && stations[index][0] <= startFuel) {
+            queue.add(stations[index++][1]);
+        }
+        while (startFuel < target) {
+            if (queue.isEmpty()) {
+                return -1;
+            }
+            startFuel += queue.poll();
+            ++res;
+            while (index < n && stations[index][0] <= startFuel) {
+                queue.add(stations[index++][1]);
             }
         }
         return res;
