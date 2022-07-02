@@ -61,7 +61,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,9 +96,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -232,8 +229,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
