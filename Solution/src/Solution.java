@@ -1,24 +1,42 @@
-import java.util.PriorityQueue;
-
 public class Solution {
-    public int minRefuelStops(int target, int startFuel, int[][] stations) {
-        PriorityQueue<Integer> queue = new PriorityQueue<>((a, b) -> b - a);
-        int res = 0;
-        int index = 0;
-        int n = stations.length;
-        while (index < n && stations[index][0] <= startFuel) {
-            queue.add(stations[index++][1]);
-        }
-        while (startFuel < target) {
-            if (queue.isEmpty()) {
+    public int nextGreaterElement(int nn) {
+        long n = nn;
+        int pre = (int) (n % 10);
+        n /= 10;
+        int[] count = new int[10];
+        ++count[pre];
+        while (n > 0) {
+            int next = (int) (n % 10);
+            n /= 10;
+            if (next < pre) {
+                ++count[next];
+                n *= 10;
+                for (int i = 1; i < 10; i++) {
+                    if (i > next && count[i] > 0) {
+                        --count[i];
+                        long sum = i;
+                        for (int j = 0; j < 10; j++) {
+                            while (count[j] > 0) {
+                                sum *= 10;
+                                sum += j;
+                                --count[j];
+                                n *= 10;
+                            }
+                        }
+                        long res = n + sum;
+                        if (res > Integer.MAX_VALUE) {
+                            return -1;
+                        } else {
+                            return (int) res;
+                        }
+                    }
+                }
                 return -1;
-            }
-            startFuel += queue.poll();
-            ++res;
-            while (index < n && stations[index][0] <= startFuel) {
-                queue.add(stations[index++][1]);
+            } else {
+                pre = next;
+                ++count[pre];
             }
         }
-        return res;
+        return -1;
     }
 }
