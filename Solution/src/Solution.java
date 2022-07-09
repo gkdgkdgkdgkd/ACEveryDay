@@ -1,49 +1,23 @@
-import java.util.List;
-
 public class Solution {
-    private final Trie root = new Trie();
-
-    public String replaceWords(List<String> dictionary, String sentence) {
-        String[] words = sentence.split(" ");
-        for (String word : dictionary) {
-            insert(word);
-        }
-        StringBuilder builder = new StringBuilder();
-        for (String word : words) {
-            builder.append(find(word)).append(" ");
-        }
-        return builder.deleteCharAt(builder.length() - 1).toString();
-    }
-
-    private static class Trie {
-        boolean end = false;
-        Trie[] children = new Trie[26];
-    }
-
-    private void insert(String str) {
-        Trie trie = root;
-        for (char c : str.toCharArray()) {
-            if (trie.children[c - 'a'] == null) {
-                trie.children[c - 'a'] = new Trie();
+    public int lenLongestFibSubseq(int[] arr) {
+        int n = arr.length;
+        int[][] dp = new int[n][n];
+        int res = 0;
+        for (int i = 2; i < n; i++) {
+            int l = 0;
+            int r = i - 1;
+            while (l < r) {
+                if (arr[l] + arr[r] == arr[i]) {
+                    res = Math.max(res, dp[r][i] = dp[l][r] + 1);
+                    ++l;
+                    --r;
+                } else if (arr[l] + arr[r] > arr[i]) {
+                    --r;
+                } else {
+                    ++l;
+                }
             }
-            trie = trie.children[c - 'a'];
         }
-        trie.end = true;
-    }
-
-    private String find(String str) {
-        Trie trie = root;
-        StringBuilder builder = new StringBuilder();
-        for (char c : str.toCharArray()) {
-            if (trie.end) {
-                return builder.toString();
-            }
-            if (trie.children[c - 'a'] == null) {
-                return str;
-            }
-            builder.append(c);
-            trie = trie.children[c - 'a'];
-        }
-        return str;
+        return res == 0 ? 0 : res + 2;
     }
 }
