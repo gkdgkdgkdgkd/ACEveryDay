@@ -1,27 +1,32 @@
+import java.util.Collections;
+import java.util.LinkedList;
+
 public class Solution {
-    public int oddCells(int m, int n, int[][] indices) {
-        long row = 0;
-        long col = 0;
-        int rowCount = 0;
-        int colCount = 0;
-        for (int[] index : indices) {
-            long temp = 1L << index[0];
-            if ((row & temp) == 0) {
-                ++rowCount;
-                row |= temp;
-            } else {
-                --rowCount;
-                row &= ~temp;
+    public int[] asteroidCollision(int[] asteroids) {
+        LinkedList<Integer> stack = new LinkedList<>();
+        for (int v : asteroids) {
+            if (v > 0) {
+                stack.push(v);
+                continue;
             }
-            temp = 1L << index[1];
-            if ((col & temp) == 0) {
-                ++colCount;
-                col |= temp;
+            while (!stack.isEmpty() && stack.peek() > 0 && stack.peek() < -v) {
+                stack.pop();
+            }
+            if (!stack.isEmpty()) {
+                if (stack.peek() < 0) {
+                    stack.push(v);
+                } else if (stack.peek() == -v) {
+                    stack.pop();
+                }
             } else {
-                --colCount;
-                col &= ~temp;
+                stack.push(v);
             }
         }
-        return rowCount * (n - colCount) + colCount * (m - rowCount);
+        int n = stack.size();
+        int[] res = new int[n];
+        while (--n >= 0) {
+            res[n] = stack.pop();
+        }
+        return res;
     }
 }
