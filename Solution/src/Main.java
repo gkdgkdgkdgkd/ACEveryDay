@@ -4,6 +4,7 @@ public class Main {
     private static final Solution SOLUTION = new Solution();
 
     public static void main(String[] args) {
-        Utils.print(SOLUTION.asteroidCollision(Utils.array(5,10,-5)));
+        WordFilter filter = new WordFilter(Utils.array("apple"));
+        Utils.print(filter.f("b","e"));
     }
 }
