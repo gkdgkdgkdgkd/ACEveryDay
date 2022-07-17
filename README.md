@@ -1,8 +1,8 @@
 # 关于该仓库
 
-该仓库是LeetCode与LintCode每日一题的AC合集。
+该仓库是LeetCode每日一题的AC合集。
 
-此分支为LeetCode，从2021年4月5日开始，使用Java实现。
+从2021年4月5日开始，使用Java实现。
 
 # 题目列表
 
