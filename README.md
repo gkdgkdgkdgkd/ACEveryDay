@@ -476,3 +476,4 @@
 - [1184](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/1184)
 - [919](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/919)
 - [1206](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/1206)
+- [592](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/592)
