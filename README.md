@@ -480,3 +480,4 @@
 - [1331](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/1331)
 - [593](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/593)
 - [952](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/952)
+- [1161](https://github.com/gkdgkdgkdgkd/ACEveryDay/tree/LeetCode/list/1161)
